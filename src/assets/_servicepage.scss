@@ -1,0 +1,37 @@
+.service-section{
+  height: auto;
+  background: url(../assets//image/service-bg.png);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  // background-attachment: fixed;
+  position: relative;
+  .service-section-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .service-bx{
+        width: 200px;
+        height: 40px;
+        background: #ffff;
+        box-shadow: 0px 10px 20px #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    span{
+        letter-spacing: 2px;
+        color: #0c5adb;
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: capitalize; 
+    }
+    }
+    p{
+        font-size: 50px;
+    }
+  }
+}

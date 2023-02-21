@@ -1,0 +1,56 @@
+@mixin myflexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+$header-background: #0c5adb;
+$headertext: #fff;
+
+.top-section {
+  height: 60px;
+  background: $header-background;
+
+  .top-section-menu {
+    @include myflexbox();
+
+    .top-left-menu {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      a {
+        text-decoration: none;
+        color: #e8e8e8;
+        font-size: 18px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        transition: all 0.3s ease-in;
+        .myicon {
+          transition: all 0.3s ease-in;
+        }
+        &:hover {
+          color: $headertext;
+        }
+        &:hover .myicon {
+          color: $headertext;
+        }
+      }
+    }
+    .top-right-menu {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      .social{
+        color: #e8e8e8;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+&:hover{
+    color: #fff;
+}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import'./appheader';
+@import'./navbarSection';
+@import'./bannerSection';
+@import'./feature';
+@import'./servicepage';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+

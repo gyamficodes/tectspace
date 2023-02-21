@@ -1,0 +1,231 @@
+@mixin about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+}
+
+.about-section {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #ffffff;
+
+  .about-menu-top {
+    @include about-flex();
+    padding-bottom: 200px;
+    .top-img {
+      position: relative;
+      .mid {
+        position: absolute;
+        img {
+          margin-top: -66px;
+          margin-left: -95px;
+          width: 330px;
+          height: 330px;
+        }
+      }
+      .inn {
+        position: absolute;
+        margin-top: -65px;
+        margin-left: -80px;
+        img {
+          width: 300px;
+          height: 300px;
+          animation: turn 10s linear infinite;
+          @keyframes turn {
+            to {
+              transform: rotate(1turn);
+            }
+          }
+        }
+      }
+      .immk {
+        position: absolute;
+        top: 70%;
+        margin-left: -100px;
+        img {
+          height: 454px;
+          height: 280px;
+        }
+      }
+    }
+
+    .box-p {
+      width: 200px;
+      height: 40px;
+      background: #ffffff;
+      box-shadow: 0px 5px 10px #ccc;
+      color: rgba(0, 0, 255, 0.85);
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .text {
+      p {
+        font-size: 50px;
+        color: #000;
+        font-weight: 700;
+        margin-bottom: 30px;
+
+        span {
+          color: rgba(0, 0, 255, 0.85);
+        }
+      }
+    }
+
+    .flex-content {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      margin-bottom: 30px;
+
+      .h-line {
+        width: 3px;
+        height: 120px;
+        background: rgba(0, 0, 255, 0.85);
+      }
+
+      p {
+        color: #00000082;
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 600;
+      }
+    }
+
+    .main-box {
+      height: 140px;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 40px;
+      .main-box-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        flex-wrap: wrap;
+
+        .mb-flec1 {
+          display: flex;
+          align-items: center;
+          gap: 1em;
+          h1 {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+    .last-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .last-flex-a {
+        .last-btn {
+          width: 200px;
+          height: 70px;
+          background: linear-gradient(to left, #2475fc, #1129b9 100%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.7em;
+          position: relative;
+          z-index: 1;
+          transition: all 0.3s ease-in-out;
+          border-radius: 5px;
+          cursor: pointer;
+          &::after {
+            content: "";
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            z-index: -1;
+            background: #1129b9;
+            width: 0%;
+            height: 10%;
+            transition: all 0.3s ease-in-out;
+            border-radius: 5px;
+          }
+          &:hover::after {
+            width: 100%;
+            height: 100%;
+          }
+          &:hover .span {
+            color: #ffffff;
+          }
+          span {
+            color: #ffffff;
+            font-size: 25px;
+            font-weight: 700;
+          }
+          .myicon {
+            color: #ffffff;
+            font-size: 20px;
+          }
+        }
+      }
+      .last-flex-b{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        .my-icon{
+            width: 70px;
+            height:  70px;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            color: #1129b9;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        span{
+            font-size: 23px;
+            color: #616161;
+         font-weight: 700;
+        line-height: 1.5;
+            p{
+         color: #000;
+         font-weight: 700;
+            }
+        }
+      }
+    }
+  }
+  .about-menu-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    .down-flex-a{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        h1{
+            color: #616161;
+        }
+        .lin-a{
+            width: 100px;
+            height: 1px;
+            background: #2475fc;
+        }
+    }
+    .down-flex-b{
+        display: flex;
+        align-items: center;
+        gap: 4em;
+       .figma{
+        width: 120px;
+        height: 50px;
+       } 
+
+    }
+  }
+}

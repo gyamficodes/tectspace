@@ -1,0 +1,113 @@
+.feature-background {
+  height: 60%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .feature-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .top-content {
+      .box {
+        width: 200px;
+        height: 40px;
+        background: #fff;
+        box-shadow: 0px 5px 5px #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0c5adb;
+        font-size: 20px;
+        font-weight: 700;
+        margin: auto;
+      }
+      h1 {
+        color: black;
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 30px;
+        span {
+          color: #0c5adb;
+        }
+      }
+    }
+  }
+  .feature-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 60px;
+    .card {
+      width: 570px;
+      height: 260px;
+      background: #e5eeff;
+      padding: 20px;
+      position: relative;
+      border-radius: 5px;
+      transition: all 0.3s ease-in-out;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &::after {
+        content: "";
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        background: #0c5adb;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        width: 1%;
+        height: 100%;
+      }
+      &:hover::after {
+        width: 100%;
+        height: 100%;
+      }
+      &:hover .card-content h1,
+      p {
+        color: #fff;
+      }
+      &:hover .card-content p {
+        color: #fff;
+      }
+      &:hover .card-content .card-btn {
+        border: 1px solid #fff;
+      }
+      .card-content {
+        transition: all 0.3s ease-in-out;
+        h1 {
+          color: #232323;
+          font-size: 30px;
+          font-weight: 700;
+        //   margin-top: 20px;
+        }
+        p {
+          color: #232323;
+          font-size: 20px;
+          font-weight: 700;
+          margin-top: 30px;
+          line-height: 1.5;
+        }
+        .card-btn {
+          width: 200px;
+          height: 60px;
+          background: linear-gradient(to left, #2475fc, #1129b9);
+          border-radius: 5px;
+          color: #fff;
+          margin-top: 30px;
+          font-size: 20px;
+          font-weight: 700;
+          border-radius: 10px;
+          text-transform: capitalize;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          position: relative;
+        }
+      }
+    }
+  }
+}
