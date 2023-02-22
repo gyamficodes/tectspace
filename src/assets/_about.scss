@@ -10,6 +10,7 @@
   padding-top: 100px;
   padding-bottom: 100px;
   background: #ffffff;
+  position: relative;
 
   .about-menu-top {
     @include about-flex();

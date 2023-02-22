@@ -1,0 +1,51 @@
+@mixin flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.branding-Section{
+    height: auto;
+      background: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    .branding-menu{
+        @include flex-box();
+        .branding-rigth{
+            .image-page{
+                .mylogo{
+                    width: 700px !important;
+                    height: 700px !important;
+                }
+            }
+        }
+        .branding-left{
+            .text-box{
+              width: 200px;  
+              height: 50px;
+              box-shadow: 0px 10px 20px #ccc;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              span{
+                letter-spacing: 0;
+    color: #0c5adb;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+              }
+            }
+            p{
+                font-size: 50px;
+                color: #000;
+                font-weight: 600;
+                margin-top: 40px;
+                span{
+                    color: #0c5adb;
+                }
+            }
+        }
+    }
+}

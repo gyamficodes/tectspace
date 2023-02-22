@@ -6,6 +6,7 @@
     <FeatureArea/>
     <AboutPage/>
     <ServicePage/>
+    <BrandingPage/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import BannerSection from '@/components/BannerSection.vue';
 import FeatureArea from '@/components/FeatureArea.vue';
 import AboutPage from '@/components/AboutPage.vue';
 import ServicePage from '@/components/ServicePage.vue';
+import BrandingPage from '@/components/BrandingPage.vue';
 
 export default {
   name: 'HomeView',
@@ -33,6 +35,8 @@ export default {
     AboutPage,
     // eslint-disable-next-line vue/no-unused-components
     ServicePage,
+    // eslint-disable-next-line vue/no-unused-components
+    BrandingPage
   },
   data() {},
   methods: {},
