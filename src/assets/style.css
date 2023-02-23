@@ -519,8 +519,9 @@
   position: absolute;
   z-index: -1;
   transition: all 0.3s ease-in-out;
-  background: #1129b9;
-  width: 0%;
+  background: url(../assets//image/call-do-bg.png);
+  width: 1%;
+  height: 100%;
   border-radius: 5px;
 }
 .service-section .service-section-down .main-box .card-box .mycard:hover {
@@ -608,8 +609,9 @@
   position: absolute;
   z-index: -1;
   transition: all 0.3s ease-in-out;
-  background: #1129b9;
-  width: 0%;
+  background: url(../assets//image/call-do-bg.png);
+  width: 1%;
+  height: 100%;
   border-radius: 5px;
 }
 .service-section .service-section-down .main-box .card-box-b .mycard:hover {
@@ -683,7 +685,8 @@
 .branding-Section .branding-menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 7em;
 }
 .branding-Section .branding-menu .branding-rigth .image-page .mylogo {
   width: 700px !important;
@@ -713,6 +716,130 @@
 }
 .branding-Section .branding-menu .branding-left p span {
   color: #0c5adb;
+}
+.branding-Section .branding-menu .branding-left h4 {
+  font-size: 22px;
+  color: #616161;
+  font-weight: 400;
+  margin-top: 25px;
+  line-height: 1.5;
+}
+.branding-Section .branding-menu .branding-left .edit {
+  margin-top: 40px;
+}
+.branding-Section .branding-menu .branding-left .edit .edit-flex {
+  display: flex;
+  align-items: center;
+  gap: 18.5em;
+}
+.branding-Section .branding-menu .branding-left .edit .edit-flex span {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.branding-Section .branding-menu .branding-left .edit .edit-flex h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.branding-Section .branding-menu .branding-left .edit .edit-line {
+  height: 10px;
+  width: 600px;
+  background: #ccc;
+  margin-top: 30px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.branding-Section .branding-menu .branding-left .edit .edit-line::after {
+  content: "";
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  background: rgb(22, 181, 151);
+  height: 100%;
+  width: 65%;
+  border-radius: 5px;
+}
+.branding-Section .branding-menu .branding-left .edit-a {
+  margin-top: 40px;
+}
+.branding-Section .branding-menu .branding-left .edit-a .edit-flex {
+  display: flex;
+  align-items: center;
+  gap: 28.3em;
+}
+.branding-Section .branding-menu .branding-left .edit-a .edit-flex span {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.branding-Section .branding-menu .branding-left .edit-a .edit-flex h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.branding-Section .branding-menu .branding-left .edit-a .edit-line-a {
+  height: 10px;
+  width: 600px;
+  background: #ccc;
+  margin-top: 30px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.branding-Section .branding-menu .branding-left .edit-a .edit-line-a::after {
+  content: "";
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  background: #0C5ADB !important;
+  border-radius: 5px;
+  height: 100%;
+  width: 90%;
+}
+.branding-Section .branding-menu .branding-left .edit-c {
+  margin-top: 40px;
+}
+.branding-Section .branding-menu .branding-left .edit-c .edit-flex {
+  display: flex;
+  align-items: center;
+  gap: 25em;
+}
+.branding-Section .branding-menu .branding-left .edit-c .edit-flex span {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.branding-Section .branding-menu .branding-left .edit-c .edit-flex h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.branding-Section .branding-menu .branding-left .edit-c .edit-line-c {
+  height: 10px;
+  width: 600px;
+  background: #ccc;
+  margin-top: 30px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.branding-Section .branding-menu .branding-left .edit-c .edit-line-c::after {
+  content: "";
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  background: #FF6A33 !important;
+  height: 100%;
+  width: 80%;
+  border-radius: 5px;
 }
 
 * {
