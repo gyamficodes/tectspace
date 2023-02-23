@@ -7,6 +7,7 @@
     <AboutPage/>
     <ServicePage/>
     <BrandingPage/>
+    <CallSection/>
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import FeatureArea from '@/components/FeatureArea.vue';
 import AboutPage from '@/components/AboutPage.vue';
 import ServicePage from '@/components/ServicePage.vue';
 import BrandingPage from '@/components/BrandingPage.vue';
+import CallSection from '@/components/CallSection.vue';
 
 export default {
   name: 'HomeView',
@@ -36,7 +38,10 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     ServicePage,
     // eslint-disable-next-line vue/no-unused-components
-    BrandingPage
+    BrandingPage,
+    // eslint-disable-next-line vue/no-unused-components
+    CallSection
+
   },
   data() {},
   methods: {},

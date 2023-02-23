@@ -9,15 +9,42 @@
         </div>
       </div>
     </div>
+    <div class="image-box-a">
+        <img class="dimon" :src="diamon" alt="">
+    </div>
+    <div class="image-box-b">
+        <img class="ma" :src="men" alt="">
+    </div>
+    <div class="image-box-c">
+        <img class="rok" :src="rok" alt="">
+    </div>
+    <div class="image-box-d">
+        <img class="ring" :src="ing" alt="">
+    </div>
+    <div class="image-box-e">
+        <img class="bal" :src="ball" alt="">
+    </div>
   </section>
 </template>
 
 <script>
+import diamond from '../assets/image/diamon.png'
+import man from '../assets/image/man.png'
+import roket from '../assets/image/roket.png'
+import ring from '../assets/image/ring.png'
+import dot from '../assets/image/ball.png'
+
 export default {
   name: "CallSection",
   props: {},
   data() {
-    return {};
+    return {
+        diamon: diamond,
+        men: man,
+         rok: roket,
+         ing: ring,
+         ball: dot,
+    };
   },
   methods: {},
   computed: {},
