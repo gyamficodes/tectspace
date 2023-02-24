@@ -80,10 +80,12 @@
   .image-box-b{
     position: absolute;
     left: 0%;
-    top: 43%;
+    top: 55%;
     .ma{
-        width: 265px !important;
-        height: 236px !important;
+        width: 285px !important;
+        height: 256px !important;
+        z-index: 999;
+        position: relative;
         animation: top 5.0s linear infinite;
         @keyframes top {
            0%{
@@ -125,12 +127,12 @@
   }
   .image-box-d{
     position: absolute;
-    left: 20%;
+    left: 19%;
     top: 40%;
     .ring{
         width: 25px !important;
         height: 25px !important;
-        animation: top 5.0s linear infinite;
+        animation: top 4.9s linear infinite;
         @keyframes top {
            0%{
            transform: translateY(-40px);
