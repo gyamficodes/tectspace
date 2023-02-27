@@ -1,15 +1,14 @@
 <template>
-    <section class="testimonial-section">
-        <h1>afsgsff</h1>
-    </section>
+    <div>
+
+    </div>
 </template>
 
 <script>
     export default {
-        name: 'TestimonialPage'
+        
     }
 </script>
 
-<style lang="scss">
-@import"../assets/TestimonialSection";
+<style>
 </style>
