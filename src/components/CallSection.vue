@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <section class="call-background">
     <div class="call-content-menu">
       <div class="call-content">
@@ -55,4 +55,4 @@ export default {
 
 <style lang="scss">
 @import "../assets/callSection";
-</style>
+</style> -->
