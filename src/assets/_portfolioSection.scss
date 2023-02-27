@@ -7,7 +7,7 @@
   .portfolio-top {
     display: flex;
     align-items: center;
-    // justify-content: center;
+    justify-content: center;
     margin-bottom: 100px;
     .port-top-content {
       .top-box {
@@ -87,12 +87,13 @@
     .portfolio-down-cards {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 3em;
       margin-bottom: 30px;
       .card {
         background: #ffffff;
         box-shadow: 0px 10px 20px #ccc;
-        height: 430px;
+        height: 470px;
         width: 380px;
         padding-right: 15px;
         padding: 25px;
@@ -101,7 +102,10 @@
         position: relative;
         transition: all 0.4s ease-in-out;
         cursor: pointer;
-
+        &:hover h1 {
+          text-decoration: underline;
+          color: #2475fc;
+        }
         .img {
           height: 310px;
           width: 100%;
@@ -147,6 +151,29 @@
             justify-content: center;
             margin-top: -390px;
             transition: all 0.5s ease-in-out;
+          }
+        }
+        .card-content {
+          .flex-cont {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            span #img {
+              width: 30px !important;
+              height: 30px !important;
+            }
+            .text {
+              font-size: 25px;
+              color: #2475fc;
+              font-weight: 600;
+            }
+            h1 {
+              color: #000;
+              font-size: 30px !important;
+              font-weight: 700 !important;
+            }
           }
         }
       }
