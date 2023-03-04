@@ -1,13 +1,26 @@
 <template>
-    <div class="abb">
-<h1>dsgehtrhtrsh</h1>
-    </div>
+    <section class="testi-background" :style="`background: url(${testi})`">
+        <div class="container">
+
+        </div>
+    </section>
 </template>
 
 <script>
-    export default {
-        name: 'TestimonialPage',
-    }
+import backg from '../assets/image/testiBG.png';
+
+export default {
+    name: 'TestimonialPage',
+    data() {
+        return {
+            testi: backg,
+        }
+    },
+    methods: {},
+    computed: {},
+    mounted() { },
+    watch: {},
+}
 </script>
 
 <style lang="scss">
