@@ -1,11 +1,70 @@
 .testi-background{
-    height: auto;
+    height: 60vh;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
     position: relative;
+    background-attachment: fixed;
+   .test-menu{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 6em;
+    .testi-menu-image{
+        position: relative;
+        .image{
+            width: 680px !important;
+            height: 690px !important;
+        }
+        .round{
+            position: absolute;
+            // z-index: 999;
+           .round-box{
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            background: #FF6A32;
+            border-radius: 50%;
+            padding: 10px 0 0;
+            border: 12px solid #EBC7C4;
+        margin-top: -500px;
+        margin-right: 150px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        span{
+            font-size: 45px;
+         font-weight: 700;
+            color: #fff;
+            // margin-top: 70px !important;
+            margin-bottom: 8px;
+        }
+        p{
+            font-size: 30px;
+            font-weight: 500;
+            color: #fff;
+            margin-top: 8px;
+        }
+        .stars{
+            display: flex;
+            align-items: center;
+            gap: 0.2em;
+            .mystars{
+                color: #fff;
+                font-size: 25px;
+            }
+        }
+           
+
+        
+        
+        }
+        }
+    }
+   }
 }
 
 
