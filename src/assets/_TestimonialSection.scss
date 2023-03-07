@@ -1,10 +1,10 @@
 @mixin tex-flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
 .testi-background {
   height: 60vh;
   padding-top: 100px;
@@ -30,8 +30,8 @@
 
   .round {
     position: absolute;
-    left: 10.5%;
-    top: 100%;
+    left: 9.1%;
+    top: 97%;
     .round-box {
       width: 190px;
       height: 190px;
@@ -102,28 +102,42 @@
       line-height: 1.7;
     }
   }
-  .flex-content{
+  .flex-content {
     @include tex-flex();
-    .flex-a{
-        display: flex;
-        gap: 2em;
-        align-items: center;
-        .pic{
-          width: 100px !important;
-          height: 100px !important;
+    .flex-a {
+      display: flex;
+      gap: 2em;
+      align-items: center;
+      .pic {
+        width: 100px !important;
+        height: 100px !important;
+      }
+      .text {
+        h4 {
+          margin-bottom: -70px;
+          font-size: 25px;
+          color: #fff;
+          font-weight: 400;
         }
-        .text{
-          h4{
-            margin-bottom: -70px;
-            font-size: 25px;
-            color: #fff;
-            font-weight: 400;
-          }
-          p{
-            color: #fff;
-            font-size: 20px;
-          }
+        p {
+          color: #fff;
+          font-size: 20px;
         }
+      }
+    }
+    .flex-b{
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      .dot{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #548DF7;
+      }
+      #org{
+        background: #FF6933;
+      }
     }
   }
 }

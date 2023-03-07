@@ -22,7 +22,9 @@
               </div>
             </div>
             <div class="flex-b">
-              
+              <div id="org" class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
             </div>
           </div>
         </div>
