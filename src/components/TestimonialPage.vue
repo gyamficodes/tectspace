@@ -50,6 +50,7 @@ import backg from "../assets/image/mybackground.png";
 import test from "../assets/image/test1.png";
 import pic from "../assets/image/people.png"
 
+
 export default {
   name: "TestimonialPage",
   data() {

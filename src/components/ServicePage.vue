@@ -109,7 +109,7 @@ export default {
           btnText: "learn more",
         },
         {
-          id: 1,
+          id: 2,
           serA: service5,
           title: "Branding",
           content: "Experience Maping and Developed",
@@ -117,7 +117,7 @@ export default {
           btnText: "learn more",
         },
         {
-          id: 1,
+          id: 3,
           serA: service6,
           title: "Market Strategy",
           content: "Content Marketing Strategy",
