@@ -1,35 +1,37 @@
 <template>
   <div class="home">
-    <AppHeader/>
-    <NavbarSection/>
-    <BannerSection/>
-    <FeatureArea/>
-    <AboutPage/>
-    <ServicePage/>
-    <BrandingPage/>
-    <CallSection/>
-    <PortfolioSection/>
-    <TestimonialPage/>
-    <BlogSection/>
+    <AppHeader />
+    <NavbarSection />
+    <BannerSection />
+    <FeatureArea />
+    <AboutPage />
+    <ServicePage />
+    <BrandingPage />
+    <CallSection />
+    <PortfolioSection />
+    <TestimonialPage />
+    <BlogSection />
+  <SubscribePage/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import AppHeader from '@/components/AppHeader.vue';
-import NavbarSection from '@/components/NavbarSection.vue';
-import BannerSection from '@/components/BannerSection.vue';
-import FeatureArea from '@/components/FeatureArea.vue';
-import AboutPage from '@/components/AboutPage.vue';
-import ServicePage from '@/components/ServicePage.vue';
-import BrandingPage from '@/components/BrandingPage.vue';
-import CallSection from '@/components/CallSection.vue';
-import PortfolioSection from '@/components/PortfolioSection.vue';
-import TestimonialPage from '@/components/TestimonialPage.vue';
-import BlogSection from '@/components/BlogSection.vue';
+import AppHeader from "@/components/AppHeader.vue";
+import NavbarSection from "@/components/NavbarSection.vue";
+import BannerSection from "@/components/BannerSection.vue";
+import FeatureArea from "@/components/FeatureArea.vue";
+import AboutPage from "@/components/AboutPage.vue";
+import ServicePage from "@/components/ServicePage.vue";
+import BrandingPage from "@/components/BrandingPage.vue";
+import CallSection from "@/components/CallSection.vue";
+import PortfolioSection from "@/components/PortfolioSection.vue";
+import TestimonialPage from "@/components/TestimonialPage.vue";
+import BlogSection from "@/components/BlogSection.vue";
+import SubscribePage from "@/components/SubscribePage.vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
     // eslint-disable-next-line vue/no-unused-components
     AppHeader,
@@ -51,17 +53,16 @@ export default {
     PortfolioSection,
     // eslint-disable-next-line no-undef
     TestimonialPage,
-  // eslint-disable-next-line vue/no-unused-components
-  BlogSection
-
+    // eslint-disable-next-line vue/no-unused-components
+    BlogSection,
+    // eslint-disable-next-line vue/no-unused-components
+    SubscribePage,
   },
   data() {},
   methods: {},
   computed: {},
   mounted() {},
   watch: {},
-}
+};
 </script>
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

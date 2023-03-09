@@ -30,14 +30,14 @@
             ></div>
             <div class="card-body">
               <div class="card-flex">
-                <div class="im"><img :src="item.pic2" alt=""></div>
+                <div class="im"><img :src="item.pic2" alt="" /></div>
                 <span> {{ item.date }} </span>
               </div>
               <a href="#">
                 {{ item.a }}
               </a>
               <p>
-               {{ item.title }}
+                {{ item.title }}
               </p>
               <div class="line"></div>
               <div class="card-main-box">
@@ -72,40 +72,40 @@ export default {
       pic3: image3,
       cards: [
         {
-          id:1,
+          id: 1,
           pic1: image1,
           pic2: image2,
           date: " August 21, 2023 ",
           a: "Top 10 Most Populars Google Chrome Extensions",
           title:
             "Monotonectally actualize <br> customer  methodologie rather than",
-            pic3:image3,
-            name:'Michel Das',
-            learn: 'learn more'
+          pic3: image3,
+          name: "Michel Das",
+          learn: "learn more",
         },
         {
-          id:2,
+          id: 2,
           pic1: image4,
           pic2: image2,
           date: " August 21, 2023 ",
           a: " Most Important Figma  Tools Discussion",
           title:
             "Monotonectally actualize <br> customer  methodologie rather than",
-            pic3:image3,
-            name:'Michel Das',
-            learn: 'learn more'
+          pic3: image3,
+          name: "Boxon Sen",
+          learn: "learn more",
         },
         {
-          id:3,
+          id: 3,
           pic1: image5,
           pic2: image2,
           date: " August 21, 2023 ",
           a: " How to Plugin Install  in Wordpress Server? ",
           title:
             "Monotonectally actualize <br> customer  methodologie rather than",
-            pic3:image3,
-            name:'Michel Das',
-            learn: 'learn more'
+          pic3: image3,
+          name: "Alex Collins",
+          learn: "learn more",
         },
       ],
     };
