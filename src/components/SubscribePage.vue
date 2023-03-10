@@ -1,31 +1,50 @@
 <template>
-<section class="Subscribe-page">
-   <div class="container">
-
-   </div>
-</section>
+  <section class="Subscribe-page">
+    <div class="container">
+      <div class="sub-memu">
+        <div
+          class="main-back"
+          :style="` background-image: url(${imageA});`">
+       <div class="main-menu">
+        <div class="main-a">
+            <h2>Subscribe Our Newsletter</h2>
+            <p>Subscribe to Keep Up to Date with Everything Techno</p>
+            <div class="myBox">
+                <div class="myBox-menu">
+                    <input type="text" placeholder="enter your email">
+                    <div class="btn"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-b"><h1>dasvsgvdfgvfd</h1></div>
+       </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
-    export default {
-        name: 'SubscribePage',
-         data() {
-    return {
+import back from "../assets/image/subcrib-bg.png";
 
+export default {
+  name: "SubscribePage",
+  data() {
+    return {
+      imageA: back,
     };
   },
   methods: {
-    greet(){
-     alert('good morning')
-    }
+    greet() {
+      alert("good morning");
+    },
   },
   computed: {},
-  mounted() {
-  },
+  mounted() {},
   watch: {},
-    }
+};
 </script>
 
 <style lang="scss">
-@import"../assets/Subscribe";
+@import "../assets/Subscribe";
 </style>

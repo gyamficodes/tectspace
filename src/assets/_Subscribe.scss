@@ -1,7 +1,71 @@
-.Subscribe-page{
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background: #fff;
-    position: relative;
+.Subscribe-page {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #fff;
+  position: relative;
+  .sub-memu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // height: 100%;
+    .main-back {
+      height: 200px;
+      width: 83%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      border-radius: 10px;
+      padding: 100px;
+      .main-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        .main-a {
+          h2 {
+            font-size: 50px;
+            font-weight: 800;
+            line-height: 50px;
+            color: #fff;
+            margin-bottom: 30px;
+          }
+          p {
+            font-size: 30px;
+            color: #fff;
+            font-weight: 400;
+          }
+          .myBox {
+            height: 78px;
+            width: 800px !important;
+            padding: 5px 25px;
+            position: relative;
+            background: #ffffff;
+            border: 0;
+            //   margin-bottom: 14px;
+            margin-top: 30px;
+            border-radius: 10px;
+            margin-left: 20px;
+            .myBox-menu{
+                display: flex;
+                align-items: center;
+                gap: 1em;
+                height: 100%;
+                input{
+                    height: 50px;
+                    flex: 1;
+                    font-size: 20px;
+                    &::placeholder{
+                        color: #616161;
+                        font-size: 20px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+          }
+        }
+      }
+    }
+  }
 }
