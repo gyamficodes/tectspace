@@ -12,6 +12,7 @@
     <TestimonialPage />
     <BlogSection />
   <SubscribePage/>
+  <FooterPage/>
   </div>
 </template>
 
@@ -29,6 +30,7 @@ import PortfolioSection from "@/components/PortfolioSection.vue";
 import TestimonialPage from "@/components/TestimonialPage.vue";
 import BlogSection from "@/components/BlogSection.vue";
 import SubscribePage from "@/components/SubscribePage.vue";
+import FooterPage from "@/components/FooterPage.vue";
 
 export default {
   name: "HomeView",
@@ -57,8 +59,14 @@ export default {
     BlogSection,
     // eslint-disable-next-line vue/no-unused-components
     SubscribePage,
+    // eslint-disable-next-line vue/no-unused-components
+    FooterPage
   },
-  data() {},
+  data() {
+    return{
+  
+    }
+  },
   methods: {},
   computed: {},
   mounted() {},
