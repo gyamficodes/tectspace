@@ -37,8 +37,8 @@
             font-weight: 400;
           }
           .myBox {
-            height: 78px;
-            width: 800px !important;
+            height: 80px;
+            width: 850px !important;
             padding: 5px 25px;
             position: relative;
             background: #ffffff;
@@ -46,24 +46,60 @@
             //   margin-bottom: 14px;
             margin-top: 30px;
             border-radius: 10px;
-            margin-left: 20px;
-            .myBox-menu{
+            margin-left: 10px;
+            .myBox-menu {
+              display: flex;
+              align-items: center;
+              gap: 1em;
+              height: 100%;
+              input {
+                height: 50px;
+                flex: 1;
+                font-size: 20px;
+                border: none;
+                outline: none;
+                &::placeholder {
+                  color: #616161;
+                  font-size: 20px;
+                  text-transform: capitalize;
+                  padding-left: 10px;
+                }
+              }
+              .btn {
+                width: 180px;
+                height: 70px;
+                border: medium none;
+                border-radius: 10px;
+                background: #0c5adb;
+                color: #fff;
+                font-weight: 500;
+                font-size: 23px;
+                text-transform: capitalize;
                 display: flex;
                 align-items: center;
-                gap: 1em;
-                height: 100%;
-                input{
-                    height: 50px;
-                    flex: 1;
-                    font-size: 20px;
-                    &::placeholder{
-                        color: #616161;
-                        font-size: 20px;
-                        text-transform: capitalize;
-                    }
-                }
+                justify-content: center;
+                cursor: pointer;
+              }
             }
           }
+        }
+        .main-b{
+            img{
+                width: 290px;
+                height: 210px;
+                animation: side 3s linear infinite;
+                @keyframes side {
+                    0% {
+                        transform: translateX(-40px);
+                     }
+                     50% {
+                        transform: translateX(0px);
+                     }
+                     100% {
+                        transform: translateX(-40px);
+                     }
+                }
+            }
         }
       }
     }
