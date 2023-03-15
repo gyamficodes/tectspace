@@ -4,7 +4,10 @@
       <div class="Footer-top">
         <div class="Footer-top-a">
           <div class="footer-top-left">
-            <img class="image" :src="logo" alt="" />
+            <!-- <img class="image" :src="logo" alt="" /> -->
+            <md-avatar>
+      <img src="../assets/image/logo2.png" alt="Avatar">
+    </md-avatar>
             <p>
               Completely strategize client-cent <br />
               Phosfluorescently iterate efficient <br />

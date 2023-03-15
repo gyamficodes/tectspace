@@ -1,5 +1,5 @@
 <template>
-  <section class="top-section">
+  <section class="top-nav">
     <div class="container">
       <div class="top-section-menu">
         <div class="top-left-menu">

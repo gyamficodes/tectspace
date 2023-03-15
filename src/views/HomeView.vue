@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <MobilePage/>
     <AppHeader />
     <NavbarSection />
     <BannerSection />
@@ -31,6 +32,7 @@ import TestimonialPage from "@/components/TestimonialPage.vue";
 import BlogSection from "@/components/BlogSection.vue";
 import SubscribePage from "@/components/SubscribePage.vue";
 import FooterPage from "@/components/FooterPage.vue";
+import MobilePage from "@/components/MobilePage.vue";
 
 export default {
   name: "HomeView",
@@ -60,7 +62,9 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     SubscribePage,
     // eslint-disable-next-line vue/no-unused-components
-    FooterPage
+    FooterPage,
+// eslint-disable-next-line vue/no-unused-components
+MobilePage
   },
   data() {
     return{

@@ -1,0 +1,475 @@
+@mixin flex-wra {
+  flex-wrap: wrap;
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .navbar {
+    display: none;
+    .navbar-menu {
+      display: none;
+    }
+  }
+  .top-nav {
+    display: none;
+  }
+  .banner-background {
+    height: auto;
+    background-attachment: none;
+    .banner-menu {
+      flex-wrap: wrap;
+      .banner-menu-left {
+        .flex-text {
+          span {
+            font-size: 20px;
+          }
+        }
+        .flex-cont {
+          .h-line {
+            height: 70px;
+          }
+          .content-box {
+            h1 {
+              font-size: 20px;
+            }
+          }
+        }
+        p {
+          font-size: 15px !important;
+        }
+      }
+      .banner-menu-right {
+        .main-logo {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .imgg {
+      display: none;
+    }
+    .imc {
+      top: 58%;
+      left: 14%;
+    }
+    .imm {
+      top: 58%;
+      right: 20%;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .im {
+      top: 53%;
+      right: 30%;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+  .feature-background {
+    height: auto;
+    .feature-top {
+      .top-content {
+        h1 {
+          font-size: 40px !important;
+        }
+      }
+    }
+    .feature-down {
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+  }
+  .about-section {
+    .about-menu-top {
+      @include flex-wra();
+      .top-img {
+        .inn {
+          img {
+            max-width: 100% !important;
+          }
+        }
+        .inn {
+          img {
+            display: none !important;
+          }
+        }
+        .mid {
+          img {
+            width: 280px !important;
+            height: 280px !important;
+
+          }
+        }
+        #vv {
+          max-width: 100% !important;
+        }
+      }
+      .text{
+        p{
+          font-size: 30px !important;
+        }
+      }
+      .flex-content{
+        p{
+          font-size: 14px !important;
+          line-height: 1.7 !important;
+        }
+      }
+ 
+    }
+    .last-box{
+      display: flex !important;
+      align-items: center !important;
+      gap: 2em !important;
+      flex-wrap: wrap !important;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    display: none !important;
+    .navbar-menu {
+      display: none;
+    }
+  }
+  .top-nav {
+    display: none !important;
+  }
+  .banner-background {
+    height: auto;
+    background-attachment: none;
+    .banner-menu {
+      flex-wrap: wrap;
+      .banner-menu-left {
+        .flex-text {
+          span {
+            font-size: 20px;
+          }
+        }
+        .flex-cont {
+          .h-line {
+            height: 90px;
+          }
+          .content-box {
+            h1 {
+              font-size: 25px;
+            }
+          }
+        }
+        p {
+          font-size: 17px !important;
+        }
+      }
+      .banner-menu-right {
+        .main-logo {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .imgg {
+      display: none;
+    }
+    .imc {
+      top: 58%;
+      left: 14%;
+    }
+    .imm {
+      top: 58%;
+      right: 20%;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .im {
+      top: 53%;
+      right: 30%;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+  .feature-background {
+    height: auto;
+    .feature-top {
+      .top-content {
+        h1 {
+          font-size: 43px !important;
+        }
+      }
+    }
+    .feature-down {
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar {
+    display: none;
+    .navbar-menu {
+      display: none;
+    }
+  }
+  .top-nav {
+    display: none;
+  }
+
+  .banner-background {
+    height: auto;
+    background-attachment: none;
+    .banner-menu {
+      flex-wrap: wrap;
+      .banner-menu-left {
+        .flex-text {
+          span {
+            font-size: 20px;
+          }
+        }
+        .flex-cont {
+          .h-line {
+            height: 90px;
+          }
+          .content-box {
+            h1 {
+              font-size: 45px;
+            }
+          }
+        }
+        p {
+          font-size: 25px !important;
+        }
+      }
+      .banner-menu-right {
+        .main-logo {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .imgg {
+      display: none;
+    }
+    .imc {
+      top: 58%;
+      left: 14%;
+    }
+    .imm {
+      top: 58%;
+      right: 20%;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .im {
+      top: 53%;
+      right: 30%;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+  .feature-background {
+    height: auto;
+    .feature-top {
+      .top-content {
+        h1 {
+          font-size: 45px !important;
+        }
+      }
+    }
+    .feature-down {
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar {
+    display: none;
+    .navbar-menu {
+      display: none;
+    }
+  }
+  .top-nav {
+    display: none;
+  }
+
+  .banner-background {
+    height: auto;
+    background-attachment: none;
+    .banner-menu {
+      flex-wrap: wrap;
+      .banner-menu-left {
+        .flex-text {
+          span {
+            font-size: 20px;
+          }
+        }
+        .flex-cont {
+          .h-line {
+            height: 90px;
+          }
+          .content-box {
+            h1 {
+              font-size: 45px;
+            }
+          }
+        }
+        p {
+          font-size: 25px !important;
+        }
+      }
+      .banner-menu-right {
+        .main-logo {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .imgg {
+      display: none;
+    }
+    .imc {
+      top: 58%;
+      left: 14%;
+    }
+    .imm {
+      top: 58%;
+      right: 20%;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .im {
+      top: 53%;
+      right: 30%;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+  .feature-background {
+    height: auto;
+    .feature-top {
+      .top-content {
+        h1 {
+          font-size: 50px !important;
+        }
+      }
+    }
+    .feature-down {
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1367px) {
+  .navbar-mobile {
+    display: none !important;
+  }
+
+  .banner-background {
+    height: auto;
+    background-attachment: none;
+    .banner-menu {
+      // flex-wrap: wrap;
+      gap: 5em;
+      .banner-menu-left {
+        .flex-text {
+          span {
+            font-size: 20px;
+          }
+        }
+        .flex-cont {
+          .h-line {
+            height: 90px;
+          }
+          .content-box {
+            h1 {
+              font-size: 37px;
+            }
+          }
+        }
+        p {
+          font-size: 20px !important;
+        }
+      }
+      .banner-menu-right {
+        .main-logo {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .imgg {
+      display: none;
+    }
+    .imc {
+      top: 20%;
+      left: 50%;
+    }
+    .imm {
+      top: 30%;
+      right: 20%;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+    .im {
+      top: 40%;
+      right: 30%;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1680px) {
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1920px) {
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  .navbar-mobile {
+    display: none;
+  }
+}

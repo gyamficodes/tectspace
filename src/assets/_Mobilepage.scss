@@ -1,0 +1,25 @@
+.navbar-mobile{
+    .main-navbar-mobile-box{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:10px;
+        height:60px;
+        line-height:50px;
+        background-color: #0c5adb;
+        color: #fff;
+        h3{
+            font-size: 30px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .social{
+            font-size: 30px;
+            color: #fff;
+            cursor: pointer;
+            &:hover{
+                color: #ccc;
+            }
+        }
+    }
+}
