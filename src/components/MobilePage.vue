@@ -3,11 +3,11 @@
         <div class="navbar-mobile">
             <div class="main-navbar-mobile-box">
                 <h3>Techno</h3>
-          <font-awesome-icon class="social" icon="fa-solid fa-bars" />
+          <font-awesome-icon @click="ShowMobileView" class="social" icon="fa-solid fa-bars" />
                 <!-- <i id="open" class="fa-solid fa-bars"></i> -->
                 <!-- <i id="close" class="fa-solid fa-xmark times"></i> -->
             </div>
-            <!-- <div class="main-navbar-mobile-dropdown-box">
+            <div v-if="isHowMobile" class="main-navbar-mobile-dropdown-box">
                 <div class="dropdown-item-box">
                     <span>Home</span>
                     <i class="fa-solid fa-plus"></i>
@@ -42,7 +42,7 @@
                     <span>Contact</span>
                     <i class="fa-solid fa-plus"></i>
                 </div>
-            </div> -->
+            </div>
     </div>
     </section>
 </template>
@@ -53,10 +53,14 @@
         props: [],
   data() {
     return {
-
+    isHowMobile: false,
     };
   },
-  methods: {},
+  methods: {
+    ShowMobileView(){
+        this.isHowMobile = !this.isHowMobile;
+    }
+  },
   computed: {},
   mounted() {},
   watch: {},

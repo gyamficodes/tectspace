@@ -80,8 +80,26 @@
     }
     .feature-down {
       flex-wrap: wrap;
+      .card{
       max-width: 100%;
+
+        .card-content{
+          h1{
+           font-size: 20px !important;
+          }
+          p{
+            font-size:  15px !important;
+          }
+        }
+        .card-image{
+          img{
+      max-width: 100% !important;
+
+          }
+        }
+      }
     }
+
   }
   .about-section {
     .about-menu-top {
@@ -126,6 +144,15 @@
       align-items: center !important;
       gap: 2em !important;
       flex-wrap: wrap !important;
+    }
+    .about-menu-down{
+      @include flex-wra();
+      max-width: 100%;
+      .down-flex-b{
+      @include flex-wra();
+      max-width: 100%;
+
+      }
     }
   }
 }
@@ -210,6 +237,78 @@
     .feature-down {
       flex-wrap: wrap;
       max-width: 100%;
+    }
+    .card{
+      max-width: 100%;
+
+        .card-content{
+          h1{
+           font-size: 20px !important;
+          }
+          p{
+            font-size:  15px !important;
+          }
+        }
+        .card-image{
+          img{
+      max-width: 100% !important;
+
+          }
+        }
+      }
+  }
+  .about-section {
+    .about-menu-top {
+      @include flex-wra();
+      .top-img {
+        .inn {
+          img {
+            max-width: 100% !important;
+          }
+        }
+        .inn {
+          img {
+            display: none !important;
+          }
+        }
+        .mid {
+          img {
+            width: 280px !important;
+            height: 280px !important;
+
+          }
+        }
+        #vv {
+          max-width: 100% !important;
+        }
+      }
+      .text{
+        p{
+          font-size: 30px !important;
+        }
+      }
+      .flex-content{
+        p{
+          font-size: 14px !important;
+          line-height: 1.7 !important;
+        }
+      }
+ 
+    }
+    .last-box{
+      display: flex !important;
+      align-items: center !important;
+      gap: 2em !important;
+      flex-wrap: wrap !important;
+    }
+    .about-menu-down{
+      @include flex-wra();
+      max-width: 100%;
+      .down-flex-b{
+      @include flex-wra();
+      max-width: 100%;
+
+      }
     }
   }
 }
@@ -297,6 +396,20 @@
       max-width: 100%;
     }
   }
+  .about-section{
+    .about-menu-top{
+      @include flex-wra();
+    }
+    .about-menu-down{
+      @include flex-wra();
+      max-width: 100%;
+      .down-flex-b{
+      @include flex-wra();
+      max-width: 100%;
+
+      }
+    }
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -382,6 +495,20 @@
       max-width: 100%;
     }
   }
+  .about-section{
+    .about-menu-top{
+      @include flex-wra();
+    }
+    .about-menu-down{
+      @include flex-wra();
+      max-width: 100%;
+      .down-flex-b{
+      @include flex-wra();
+      max-width: 100%;
+
+      }
+    }
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -448,6 +575,66 @@
       }
     }
   }
+  
+  .about-section {
+    .about-menu-top {
+      // @include flex-wra();
+      .top-img {
+        .inn {
+          img {
+            max-width: 100% !important;
+          }
+        }
+        .inn {
+          img {
+            display: none !important;
+          }
+        }
+        .mid {
+          img {
+            width: 280px !important;
+            height: 280px !important;
+
+          }
+        }
+        #vv {
+          max-width: 100% !important;
+        }
+      }
+      .text{
+        p{
+          font-size: 45px !important;
+        }
+      }
+      .flex-content{
+        .h-line{
+          height: 90px !important;
+        }
+        p{
+          font-size: 14px !important;
+          line-height: 1.7 !important;
+        }
+      }
+ 
+    }
+    .last-box{
+      display: flex !important;
+      align-items: center !important;
+      gap: 2em !important;
+      // flex-wrap: wrap !important;
+    }
+    // .about-menu-down{
+    //   @include flex-wra();
+    //   max-width: 100%;
+    //   .down-flex-b{
+    //   @include flex-wra();
+    //   max-width: 100%;
+
+    //   }
+    // }
+  }
+
+
 }
 
 @media (min-width: 1367px) and (max-width: 1440px) {
