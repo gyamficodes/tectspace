@@ -11,11 +11,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faBars, faEnvelope,  faKey, faLocation, faMap, faMessage, faMusic, faPhone, faSearch, faStar, faTable, faVoicemail, } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faEnvelope,  faKey, faLocation, faMap, faMessage, faMusic, faPhone, faPlus, faSearch, faStar, faTable, faVoicemail, } from '@fortawesome/free-solid-svg-icons'
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 /* add icons to the library */
-library.add( faEnvelope, faMap, faPhone, faMessage ,faMusic,faSearch,faStar,faKey,faPhone,faTable,faVoicemail,faLocation,faBars)
+library.add( faEnvelope, faMap, faPhone, faMessage ,faMusic,faSearch,faStar,faKey,faPhone,faTable,faVoicemail,faLocation,faBars,faPlus)
 
 
 // import VueMaterial from 'vue-material'

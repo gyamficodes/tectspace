@@ -155,6 +155,37 @@
       }
     }
   }
+  .service-section{
+    .service-section-top{
+      p{
+        font-size: 25px !important;
+        // max-width: 100%;
+        text-align: center;
+      }
+      h3{
+        font-size: 17px !important;
+      }
+    }
+    .service-section-down{
+      .main-box{
+        .card-box{
+          flex-wrap: wrap !important;
+          flex-direction: column;
+          .mycard{
+            max-width: 100% !important;
+          }
+        }
+        .card-box-b{
+          flex-wrap: wrap !important;
+          flex-direction: column;
+        .mycard{
+          max-width: 100% !important;
+        }
+        }
+       
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -311,6 +342,40 @@
       }
     }
   }
+
+  .service-section{
+    .service-section-top{
+      p{
+        font-size: 30px !important;
+        // max-width: 100%;
+        text-align: center;
+      }
+      h3{
+        font-size: 17px !important;
+      }
+    }
+    .service-section-down{
+      .main-box{
+        .card-box{
+          flex-wrap: wrap !important;
+          flex-direction: column;
+          .mycard{
+            max-width: 100% !important;
+          }
+        }
+        .card-box-b{
+          flex-wrap: wrap !important;
+          flex-direction: column;
+        .mycard{
+          max-width: 100% !important;
+        }
+        }
+       
+      }
+    }
+  }
+
+
 }
 
 // Medium devices (tablets, 768px and up)

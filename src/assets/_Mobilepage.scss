@@ -22,4 +22,32 @@
             }
         }
     }
+
+    .main-navbar-mobile-dropdown-box{
+        // display: none;
+        transition: all 0.5s ease-in-out;
+         .i{
+            cursor: pointer;
+            font-size:18px;
+        }
+        
+        .dropdown-item-box{
+            display: flex;
+            justify-content:space-between;
+            align-items:center;
+            height:50px;
+            line-height:50px;
+            background: #fff;
+            border-bottom: 1px solid #ccc;
+            padding:10px;
+            color: #444;
+            font-weight: 500;
+            font-size: 18px;
+        transition: all 0.3s ease-in-out;
+            &:hover{
+                color: #0c5adb;
+                background: #f8f8f8 ;
+            }
+        }
+    }
 }

@@ -10,37 +10,37 @@
             <div v-if="isHowMobile" class="main-navbar-mobile-dropdown-box">
                 <div class="dropdown-item-box">
                     <span>Home</span>
-                    <i class="fa-solid fa-plus"></i>
+                    <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
 
                 <div class="dropdown-item-box">
                     <span>Company</span>
-                    <i class="fa-solid fa-plus"></i>
+                    <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
 
                 <div class="dropdown-item-box">
                     <span>Services</span>
-                    <i class="fa-solid fa-plus"></i>
+                    <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
 
                 <div class="dropdown-item-box">
                     <span>IT Solution</span>
-                    <i class="fa-solid fa-plus"></i>
+                    <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
 
                 <div class="dropdown-item-box">
                     <span>Element</span>
-                    <i class="fa-solid fa-plus"></i>
+                    <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
 
                 <div class="dropdown-item-box">
                     <span>Blog</span>
-                    <i class="fa-solid fa-plus"></i>
+                    <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
 
                 <div class="dropdown-item-box">
                     <span>Contact</span>
-                    <i class="fa-solid fa-plus"></i>
+                    <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
             </div>
     </div>
