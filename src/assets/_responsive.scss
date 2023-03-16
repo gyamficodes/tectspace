@@ -475,6 +475,44 @@
       }
     }
   }
+  .service-section{
+    .service-section-top{
+      p{
+        font-size: 40px !important;
+        // max-width: 100%;
+        text-align: center;
+      }
+      h3{
+        font-size: 18px !important;
+      }
+    }
+    .service-section-down{
+      .main-box{
+        .card-box{
+          flex-wrap: wrap !important;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // flex-direction: column;
+          // .mycard{
+          //   max-width: 100% !important;
+          // }
+        }
+        .card-box-b{
+          flex-wrap: wrap !important;
+          // flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        // .mycard{
+        //   max-width: 100% !important;
+        // }
+        }
+       
+      }
+    }
+  }
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -571,6 +609,43 @@
       @include flex-wra();
       max-width: 100%;
 
+      }
+    }
+  }
+  .service-section{
+    .service-section-top{
+      p{
+        font-size: 45px !important;
+        // max-width: 100%;
+        text-align: center;
+      }
+      h3{
+        font-size: 19px !important;
+      }
+    }
+    .service-section-down{
+      .main-box{
+        .card-box{
+          flex-wrap: wrap !important;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // flex-direction: column;
+          // .mycard{
+          //   max-width: 100% !important;
+          // }
+        }
+        .card-box-b{
+          flex-wrap: wrap !important;
+          // flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        // .mycard{
+        //   max-width: 100% !important;
+        // }
+        }
+       
       }
     }
   }
@@ -698,7 +773,43 @@
     //   }
     // }
   }
-
+  .service-section{
+    .service-section-top{
+      p{
+        font-size: 45px !important;
+        // max-width: 100%;
+        text-align: center;
+      }
+      h3{
+        font-size: 19px !important;
+      }
+    }
+    .service-section-down{
+      .main-box{
+        .card-box{
+          flex-wrap: wrap !important;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // flex-direction: column;
+          // .mycard{
+          //   max-width: 100% !important;
+          // }
+        }
+        .card-box-b{
+          flex-wrap: wrap !important;
+          // flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        // .mycard{
+        //   max-width: 100% !important;
+        // }
+        }
+       
+      }
+    }
+  }
 
 }
 
