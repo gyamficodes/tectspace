@@ -1,4 +1,4 @@
-.service-section{
+.service-section {
   height: auto;
   background: url(../assets//image/service-bg.png);
   padding-top: 100px;
@@ -7,244 +7,242 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  .service-section-top{
+  .service-section-top {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
-    .service-bx{
-        width: 200px;
-        height: 40px;
-        background: #ffff;
-        box-shadow: 0px 10px 20px #ccc;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    span{
+    .service-bx {
+      width: 200px;
+      height: 40px;
+      background: #ffff;
+      box-shadow: 0px 10px 20px #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      span {
         letter-spacing: 2px;
         color: #0c5adb;
         font-size: 17px;
         font-weight: 500;
-        text-transform: capitalize; 
+        text-transform: capitalize;
+      }
     }
+    p {
+      font-size: 50px;
+      font-weight: 600;
+      color: #000;
+      margin-top: 35px;
+      margin-bottom: 20px;
+      span {
+        color: #0c5adb;
+      }
     }
-    p{
-        font-size: 50px;
-        font-weight: 600;
-        color: #000;
-        margin-top: 35px;
-        margin-bottom: 20px;
-        span{
-            color: #0c5adb;
-        }
-    }
-    h3{
-    text-align: center;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 1.5;
+    h3 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.5;
     }
   }
-  .service-section-down{
+  .service-section-down {
     display: flex;
     align-items: center;
     justify-content: center;
-    .main-box{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 3em;
-   
-    .card-box{
+    .main-box {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 3em;
+
+      .card-box {
         display: flex;
         align-items: center;
         gap: 1em;
         // padding-bottom: 50px;
-        .mycard{
-            width: 340px;
-            height: 300px;
-            background: #ffff;
-            box-shadow: 0px 10px 18px #ccc;
-            padding: 40px;
-            position: relative;
-                z-index: -1;
-                transition: all 0.3s ease-in-out;
-                border-radius: 5px;
-            z-index: 1;
-           
-            &::after{
-                content: '';
-                left: 0;
-                top: 0;
-                position: absolute;
-                z-index: -1;
-                transition: all 0.3s ease-in-out;
-                // background: #1129b9;
-                background: url(../assets//image/call-do-bg.png);
-                width: 1%;
-                height: 100%;
-                border-radius: 5px;
-            }
-            &:hover{
+        .mycard {
+          width: 340px;
+          height: 300px;
+          background: #ffff;
+          box-shadow: 0px 10px 18px #ccc;
+          padding: 40px;
+          position: relative;
+          z-index: -1;
+          transition: all 0.3s ease-in-out;
+          border-radius: 5px;
+          z-index: 1;
+
+          &::after {
+            content: "";
+            left: 0;
+            top: 0;
+            position: absolute;
+            z-index: -1;
+            transition: all 0.3s ease-in-out;
+            // background: #1129b9;
+            background: url(../assets//image/call-do-bg.png);
+            width: 1%;
+            height: 100%;
+            border-radius: 5px;
+          }
+          &:hover {
             transform: translateY(-20px);
-            }
-            &:hover::after{
-                width: 100%;
-                height: 100%;
-            }
-            &:hover .card-flex p{
-                color: #ffff;
-            }
-            &:hover  h3, h4{
-                color: #ffff;
-            }
-            &:hover   h4{
-                color: #ffff;
-            } 
-            &:hover  .btn  h1{
-                color: #ffff;
-            }
-            &:hover  .btn  .i #pen{
-                color: #ffff !important;
-            }
-            
+          }
+          &:hover::after {
+            width: 100%;
+            height: 100%;
+          }
+          &:hover .card-flex p {
+            color: #ffff;
+          }
+          &:hover h3,
+          h4 {
+            color: #ffff;
+          }
+          &:hover h4 {
+            color: #ffff;
+          }
+          &:hover .btn h1 {
+            color: #ffff;
+          }
+          &:hover .btn .i #pen {
+            color: #ffff !important;
+          }
 
-            .card-flex{
-                display: flex;
-                align-items: center;
-                gap: 1em;
-                p{
-                    color: #0c5adb;
-                    font-size: 20px;
-                    font-weight: 500;
-                transition: all 0.1s ease-in-out;
-
-                }
+          .card-flex {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            p {
+              color: #0c5adb;
+              font-size: 20px;
+              font-weight: 500;
+              transition: all 0.1s ease-in-out;
             }
-            h3{
-                font-size: 30px;
-                color: #000;
-                font-weight: 500;
-                margin-top: 30px;
+          }
+          h3 {
+            font-size: 30px;
+            color: #000;
+            font-weight: 500;
+            margin-top: 30px;
+          }
+          h4 {
+            color: #616161;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 19px;
+            line-height: 1.5;
+            margin-top: 30px;
+          }
+          .btn {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            gap: 0.5em;
+            cursor: pointer;
+            h1 {
+              font-size: 20px;
+              color: #0c5adb;
+              text-decoration: underline;
+              text-transform: capitalize;
             }
-            h4{
-                color: #616161;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 19px;
-                line-height: 1.5;
-                margin-top: 30px;
-            }
-            .btn{
-                display: flex;
-                align-items: center;
-                margin-top: 50px;
-                gap: 0.5em;
-                cursor: pointer;
-                h1{
-                    font-size: 20px;
-                    color: #0c5adb;
-                    text-decoration: underline;
-                    text-transform: capitalize;
-                }
-            }
+          }
         }
-    }
-    .card-box-b{
+      }
+      .card-box-b {
         display: flex;
         align-items: center;
         gap: 1em;
         padding-bottom: 50px;
-        .mycard{
-            width: 340px;
-            height: 300px;
-            background: #ffff;
-            box-shadow: 0px 10px 18px #ccc;
-            padding: 40px;
-            position: relative;
-                z-index: -1;
-                transition: all 0.3s ease-in-out;
-                border-radius: 5px;
-            z-index: 1;
-           
-            &::after{
-                content: '';
-                left: 0;
-                top: 0;
-                position: absolute;
-                z-index: -1;
-                transition: all 0.3s ease-in-out;
-                background: url(../assets//image/call-do-bg.png);
-                width: 1%;
-                height: 100%;
-                border-radius: 5px;
-            }
-            &:hover{
+        .mycard {
+          width: 340px;
+          height: 300px;
+          background: #ffff;
+          box-shadow: 0px 10px 18px #ccc;
+          padding: 40px;
+          position: relative;
+          z-index: -1;
+          transition: all 0.3s ease-in-out;
+          border-radius: 5px;
+          z-index: 1;
+
+          &::after {
+            content: "";
+            left: 0;
+            top: 0;
+            position: absolute;
+            z-index: -1;
+            transition: all 0.3s ease-in-out;
+            background: url(../assets//image/call-do-bg.png);
+            width: 1%;
+            height: 100%;
+            border-radius: 5px;
+          }
+          &:hover {
             transform: translateY(-20px);
-            }
-            &:hover::after{
-                width: 100%;
-                height: 100%;
-            }
-            &:hover .card-flex p{
-                color: #ffff;
-            }
-            &:hover  h3, h4{
-                color: #ffff;
-            }
-            &:hover   h4{
-                color: #ffff;
-            } 
-            &:hover  .btn  h1{
-                color: #ffff;
-            }
-            &:hover  .btn  .i #pen{
-                color: #ffff !important;
-            }
-            
+          }
+          &:hover::after {
+            width: 100%;
+            height: 100%;
+          }
+          &:hover .card-flex p {
+            color: #ffff;
+          }
+          &:hover h3,
+          h4 {
+            color: #ffff;
+          }
+          &:hover h4 {
+            color: #ffff;
+          }
+          &:hover .btn h1 {
+            color: #ffff;
+          }
+          &:hover .btn .i #pen {
+            color: #ffff !important;
+          }
 
-            .card-flex{
-                display: flex;
-                align-items: center;
-                gap: 1em;
-                p{
-                    color: #0c5adb;
-                    font-size: 20px;
-                    font-weight: 500;
-                transition: all 0.1s ease-in-out;
-
-                }
+          .card-flex {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            p {
+              color: #0c5adb;
+              font-size: 20px;
+              font-weight: 500;
+              transition: all 0.1s ease-in-out;
             }
-            h3{
-                font-size: 30px;
-                color: #000;
-                font-weight: 500;
-                margin-top: 30px;
+          }
+          h3 {
+            font-size: 30px;
+            color: #000;
+            font-weight: 500;
+            margin-top: 30px;
+          }
+          h4 {
+            color: #616161;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 19px;
+            line-height: 1.5;
+            margin-top: 30px;
+          }
+          .btn {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            gap: 0.5em;
+            cursor: pointer;
+            h1 {
+              font-size: 20px;
+              color: #0c5adb;
+              text-decoration: underline;
+              text-transform: capitalize;
             }
-            h4{
-                color: #616161;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 19px;
-                line-height: 1.5;
-                margin-top: 30px;
-            }
-            .btn{
-                display: flex;
-                align-items: center;
-                margin-top: 50px;
-                gap: 0.5em;
-                cursor: pointer;
-                h1{
-                    font-size: 20px;
-                    color: #0c5adb;
-                    text-decoration: underline;
-                    text-transform: capitalize;
-                }
-            }
+          }
         }
-    
+      }
     }
   }
-}}
+}
