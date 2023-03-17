@@ -80,26 +80,24 @@
     }
     .feature-down {
       flex-wrap: wrap;
-      .card{
-      max-width: 100%;
+      .card {
+        max-width: 100%;
 
-        .card-content{
-          h1{
-           font-size: 20px !important;
+        .card-content {
+          h1 {
+            font-size: 20px !important;
           }
-          p{
-            font-size:  15px !important;
+          p {
+            font-size: 15px !important;
           }
         }
-        .card-image{
-          img{
-      max-width: 100% !important;
-
+        .card-image {
+          img {
+            max-width: 100% !important;
           }
         }
       }
     }
-
   }
   .about-section {
     .about-menu-top {
@@ -119,71 +117,139 @@
           img {
             width: 280px !important;
             height: 280px !important;
-
           }
         }
         #vv {
           max-width: 100% !important;
         }
       }
-      .text{
-        p{
+      .text {
+        p {
           font-size: 30px !important;
         }
       }
-      .flex-content{
-        p{
+      .flex-content {
+        p {
           font-size: 14px !important;
           line-height: 1.7 !important;
         }
       }
- 
     }
-    .last-box{
+    .last-box {
       display: flex !important;
       align-items: center !important;
       gap: 2em !important;
       flex-wrap: wrap !important;
     }
-    .about-menu-down{
+    .about-menu-down {
       @include flex-wra();
       max-width: 100%;
-      .down-flex-b{
-      @include flex-wra();
-      max-width: 100%;
-
+      .down-flex-b {
+        @include flex-wra();
+        max-width: 100%;
       }
     }
   }
-  .service-section{
-    .service-section-top{
-      p{
+  .service-section {
+    .service-section-top {
+      p {
         font-size: 25px !important;
         // max-width: 100%;
         text-align: center;
       }
-      h3{
+      h3 {
         font-size: 17px !important;
       }
     }
-    .service-section-down{
-      .main-box{
-        .card-box{
+    .service-section-down {
+      .main-box {
+        .card-box {
           flex-wrap: wrap !important;
           flex-direction: column;
-          .mycard{
+          .mycard {
             max-width: 100% !important;
           }
         }
-        .card-box-b{
+        .card-box-b {
           flex-wrap: wrap !important;
           flex-direction: column;
-        .mycard{
-          max-width: 100% !important;
+          .mycard {
+            max-width: 100% !important;
+          }
         }
-        }
-       
       }
+    }
+
+    
+  }
+  .branding-menu {
+    flex-wrap: wrap;
+
+    .mylogo {
+      max-width: 100% !important;
+      // width: 400px !important;
+      // height: 400px !important;
+    }
+    .text-box {
+      margin: auto;
+    }
+    p {
+      font-size: 30px !important;
+      text-align: center;
+    }
+    h4 {
+      font-size: 15px !important;
+      text-align: center !important;
+      // line-height: 0 !important;
+      // max-width: 100% !important;
+    }
+  }
+  .edit {
+    .edit-flex {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 7em !important;
+      margin-left: -90px;
+      h1 {
+        margin-left: -40px;
+      }
+    }
+    .edit-line {
+      width: 350px !important;
+      margin: auto;
+    }
+  }
+  .edit-a {
+    .edit-flex {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 15em !important;
+      margin-left: -90px;
+      h1 {
+        margin-left: 60px;
+      }
+    }
+    .edit-line-a {
+      width: 350px !important;
+      margin: auto;
+    }
+  }
+  .edit-c {
+    .edit-flex {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 13em !important;
+      margin-left: -90px;
+      h1 {
+        margin-left: 20px;
+      }
+    }
+    .edit-line-c {
+      width: 350px !important;
+      margin: auto;
     }
   }
 }
@@ -269,24 +335,23 @@
       flex-wrap: wrap;
       max-width: 100%;
     }
-    .card{
+    .card {
       max-width: 100%;
 
-        .card-content{
-          h1{
-           font-size: 20px !important;
-          }
-          p{
-            font-size:  15px !important;
-          }
+      .card-content {
+        h1 {
+          font-size: 20px !important;
         }
-        .card-image{
-          img{
-      max-width: 100% !important;
-
-          }
+        p {
+          font-size: 15px !important;
         }
       }
+      .card-image {
+        img {
+          max-width: 100% !important;
+        }
+      }
+    }
   }
   .about-section {
     .about-menu-top {
@@ -306,76 +371,93 @@
           img {
             width: 280px !important;
             height: 280px !important;
-
           }
         }
         #vv {
           max-width: 100% !important;
         }
       }
-      .text{
-        p{
+      .text {
+        p {
           font-size: 30px !important;
         }
       }
-      .flex-content{
-        p{
+      .flex-content {
+        p {
           font-size: 14px !important;
           line-height: 1.7 !important;
         }
       }
- 
     }
-    .last-box{
+    .last-box {
       display: flex !important;
       align-items: center !important;
       gap: 2em !important;
       flex-wrap: wrap !important;
     }
-    .about-menu-down{
+    .about-menu-down {
       @include flex-wra();
       max-width: 100%;
-      .down-flex-b{
-      @include flex-wra();
-      max-width: 100%;
-
+      .down-flex-b {
+        @include flex-wra();
+        max-width: 100%;
       }
     }
   }
 
-  .service-section{
-    .service-section-top{
-      p{
+  .service-section {
+    .service-section-top {
+      p {
         font-size: 30px !important;
         // max-width: 100%;
         text-align: center;
       }
-      h3{
+      h3 {
         font-size: 17px !important;
       }
     }
-    .service-section-down{
-      .main-box{
-        .card-box{
+    .service-section-down {
+      .main-box {
+        .card-box {
           flex-wrap: wrap !important;
           flex-direction: column;
-          .mycard{
+          .mycard {
             max-width: 100% !important;
           }
         }
-        .card-box-b{
+        .card-box-b {
           flex-wrap: wrap !important;
           flex-direction: column;
-        .mycard{
-          max-width: 100% !important;
+          .mycard {
+            max-width: 100% !important;
+          }
         }
-        }
-       
       }
     }
   }
+  .branding-menu {
+    flex-wrap: wrap;
 
-
+    .mylogo {
+      max-width: 100% !important;
+      // width: 400px !important;
+      // height: 400px !important;
+    }
+    .text-box {
+      margin: auto;
+    }
+    p {
+      font-size: 33px !important;
+      text-align: center;
+    }
+    h4 {
+      font-size: 17px !important;
+      text-align: center !important;
+      // line-height: 0 !important;
+      // max-width: 100% !important;
+    }
+  }
+  
 }
 
 // Medium devices (tablets, 768px and up)
@@ -461,34 +543,33 @@
       max-width: 100%;
     }
   }
-  .about-section{
-    .about-menu-top{
+  .about-section {
+    .about-menu-top {
       @include flex-wra();
     }
-    .about-menu-down{
+    .about-menu-down {
       @include flex-wra();
       max-width: 100%;
-      .down-flex-b{
-      @include flex-wra();
-      max-width: 100%;
-
+      .down-flex-b {
+        @include flex-wra();
+        max-width: 100%;
       }
     }
   }
-  .service-section{
-    .service-section-top{
-      p{
+  .service-section {
+    .service-section-top {
+      p {
         font-size: 40px !important;
         // max-width: 100%;
         text-align: center;
       }
-      h3{
+      h3 {
         font-size: 18px !important;
       }
     }
-    .service-section-down{
-      .main-box{
-        .card-box{
+    .service-section-down {
+      .main-box {
+        .card-box {
           flex-wrap: wrap !important;
           display: flex;
           align-items: center;
@@ -498,21 +579,41 @@
           //   max-width: 100% !important;
           // }
         }
-        .card-box-b{
+        .card-box-b {
           flex-wrap: wrap !important;
           // flex-direction: column;
           display: flex;
           align-items: center;
           justify-content: center;
-        // .mycard{
-        //   max-width: 100% !important;
-        // }
+          // .mycard{
+          //   max-width: 100% !important;
+          // }
         }
-       
       }
     }
   }
+  .branding-menu {
+    flex-wrap: wrap;
 
+    .mylogo {
+      max-width: 100% !important;
+      // width: 400px !important;
+      // height: 400px !important;
+    }
+    .text-box {
+      margin: auto;
+    }
+    p {
+      font-size: 40px !important;
+      text-align: center;
+    }
+    h4 {
+      font-size: 20px !important;
+      text-align: center !important;
+      // line-height: 0 !important;
+      // max-width: 100% !important;
+    }
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -598,34 +699,33 @@
       max-width: 100%;
     }
   }
-  .about-section{
-    .about-menu-top{
+  .about-section {
+    .about-menu-top {
       @include flex-wra();
     }
-    .about-menu-down{
+    .about-menu-down {
       @include flex-wra();
       max-width: 100%;
-      .down-flex-b{
-      @include flex-wra();
-      max-width: 100%;
-
+      .down-flex-b {
+        @include flex-wra();
+        max-width: 100%;
       }
     }
   }
-  .service-section{
-    .service-section-top{
-      p{
+  .service-section {
+    .service-section-top {
+      p {
         font-size: 45px !important;
         // max-width: 100%;
         text-align: center;
       }
-      h3{
+      h3 {
         font-size: 19px !important;
       }
     }
-    .service-section-down{
-      .main-box{
-        .card-box{
+    .service-section-down {
+      .main-box {
+        .card-box {
           flex-wrap: wrap !important;
           display: flex;
           align-items: center;
@@ -635,18 +735,39 @@
           //   max-width: 100% !important;
           // }
         }
-        .card-box-b{
+        .card-box-b {
           flex-wrap: wrap !important;
           // flex-direction: column;
           display: flex;
           align-items: center;
           justify-content: center;
-        // .mycard{
-        //   max-width: 100% !important;
-        // }
+          // .mycard{
+          //   max-width: 100% !important;
+          // }
         }
-       
       }
+    }
+  }
+  .branding-menu {
+    flex-wrap: wrap;
+
+    .mylogo {
+      max-width: 100% !important;
+      // width: 400px !important;
+      // height: 400px !important;
+    }
+    .text-box {
+      margin: auto;
+    }
+    p {
+      font-size: 40px !important;
+      text-align: center;
+    }
+    h4 {
+      font-size: 20px !important;
+      text-align: center !important;
+      // line-height: 0 !important;
+      // max-width: 100% !important;
     }
   }
 }
@@ -715,7 +836,7 @@
       }
     }
   }
-  
+
   .about-section {
     .about-menu-top {
       // @include flex-wra();
@@ -734,30 +855,28 @@
           img {
             width: 280px !important;
             height: 280px !important;
-
           }
         }
         #vv {
           max-width: 100% !important;
         }
       }
-      .text{
-        p{
+      .text {
+        p {
           font-size: 45px !important;
         }
       }
-      .flex-content{
-        .h-line{
+      .flex-content {
+        .h-line {
           height: 90px !important;
         }
-        p{
+        p {
           font-size: 14px !important;
           line-height: 1.7 !important;
         }
       }
- 
     }
-    .last-box{
+    .last-box {
       display: flex !important;
       align-items: center !important;
       gap: 2em !important;
@@ -773,20 +892,20 @@
     //   }
     // }
   }
-  .service-section{
-    .service-section-top{
-      p{
+  .service-section {
+    .service-section-top {
+      p {
         font-size: 45px !important;
         // max-width: 100%;
         text-align: center;
       }
-      h3{
+      h3 {
         font-size: 19px !important;
       }
     }
-    .service-section-down{
-      .main-box{
-        .card-box{
+    .service-section-down {
+      .main-box {
+        .card-box {
           flex-wrap: wrap !important;
           display: flex;
           align-items: center;
@@ -796,21 +915,41 @@
           //   max-width: 100% !important;
           // }
         }
-        .card-box-b{
+        .card-box-b {
           flex-wrap: wrap !important;
           // flex-direction: column;
           display: flex;
           align-items: center;
           justify-content: center;
-        // .mycard{
-        //   max-width: 100% !important;
-        // }
+          // .mycard{
+          //   max-width: 100% !important;
+          // }
         }
-       
       }
     }
   }
+  .branding-menu {
+    // flex-wrap: wrap;
 
+    .mylogo {
+      max-width: 100% !important;
+      // width: 400px !important;
+      // height: 400px !important;
+    }
+    .text-box {
+      margin: auto;
+    }
+    p {
+      font-size: 40px !important;
+      text-align: center;
+    }
+    h4 {
+      font-size: 20px !important;
+      text-align: center !important;
+      // line-height: 0 !important;
+      // max-width: 100% !important;
+    }
+  }
 }
 
 @media (min-width: 1367px) and (max-width: 1440px) {
