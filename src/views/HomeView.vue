@@ -8,7 +8,7 @@
     <AboutPage />
     <ServicePage />
     <BrandingPage />
-    <CallSection />
+    <!-- <CallSection /> -->
     <PortfolioSection />
     <TestimonialPage />
     <BlogSection />
