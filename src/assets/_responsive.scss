@@ -252,6 +252,34 @@
       margin: auto;
     }
   }
+
+  .portfolio-background{
+    .top-box{
+      margin: auto ;
+    }
+    .port-top-flex-b{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap !important;
+      max-width: 100%;
+    }
+    .port-top-flex{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-wrap: wrap;
+       .port-top-flex-a{
+        text-align: center !important;
+        h1{
+          font-size: 30px !important;
+        }
+      }
+    }
+  }
+
+
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -457,7 +485,31 @@
       // max-width: 100% !important;
     }
   }
-  
+  .portfolio-background{
+    .top-box{
+      margin: auto ;
+    }
+    .port-top-flex-b{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap !important;
+      max-width: 100%;
+    }
+    .port-top-flex{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-wrap: wrap;
+       .port-top-flex-a{
+        text-align: center !important;
+        h1{
+          font-size: 40px !important;
+        }
+      }
+    }
+  }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -614,6 +666,30 @@
       // max-width: 100% !important;
     }
   }
+  .portfolio-background{
+    .top-box{
+      margin: auto ;
+    }
+    .port-top-flex-b{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap !important;
+      max-width: 100%;
+    }
+    .port-top-flex{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-wrap: wrap;
+       .port-top-flex-a{
+        text-align: center !important;
+        // h1{
+        //   font-size: 40px !important;
+        // }
+      }
+    }
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -768,6 +844,30 @@
       text-align: center !important;
       // line-height: 0 !important;
       // max-width: 100% !important;
+    }
+  }
+  .portfolio-background{
+    .top-box{
+      margin: auto ;
+    }
+    .port-top-flex-b{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap !important;
+      max-width: 100%;
+    }
+    .port-top-flex{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-wrap: wrap;
+       .port-top-flex-a{
+        text-align: center !important;
+        // h1{
+        //   font-size: 40px !important;
+        // }
+      }
     }
   }
 }
@@ -948,6 +1048,30 @@
       text-align: center !important;
       // line-height: 0 !important;
       // max-width: 100% !important;
+    }
+  }
+  .portfolio-background{
+    .top-box{
+      margin: auto ;
+    }
+    .port-top-flex-b{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap !important;
+      max-width: 100%;
+    }
+    .port-top-flex{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-wrap: wrap;
+       .port-top-flex-a{
+        text-align: center !important;
+        // h1{
+        //   font-size: 40px !important;
+        // }
+      }
     }
   }
 }
