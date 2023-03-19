@@ -316,7 +316,11 @@
       }
     }
 }
-
+.test-menu{
+  flex-wrap: wrap !important;
+  display: flex;
+  flex-direction: column;
+}
 
 }
 
@@ -802,6 +806,7 @@
         }
       }
   }
+  
 }
 
 // Large devices (desktops, 992px and up)
@@ -1017,6 +1022,9 @@
       }
         }
       }
+      // .test-menu{
+      //   flex-wrap: nowrap !important;
+      // }
   }
 }
 
@@ -1229,7 +1237,7 @@
           max-width: 100% !important;
         }
       .round{
-        top: 50% !important;
+        top: 93% !important;
         max-width:100% !important;
         .round-box{
           width: 160px !important;
@@ -1237,25 +1245,29 @@
         }
       }
       .testi-menu-content{
+
         h1{
-          font-size: 50px !important;
+          font-size: 30px !important;
           // max-width: 100%;
         }
         p{
-          font-size: 23px !important;
+          font-size: 20px !important;
         }
         h6{
-          font-size: 20px !important;
+          font-size: 18px !important;
         }
         .flex-content{
  
       .flex-a{
-        flex-wrap: wrap !important;
+        // flex-wrap: wrap !important;
         display: flex;
         align-items: center;
         justify-content: center;
       }
         }
+      }
+         .test-menu{
+        flex-wrap: nowrap !important;
       }
   }
 }
@@ -1264,17 +1276,139 @@
   .navbar-mobile {
     display: none;
   }
+  .testi-background{
+    position: relative !important;
+  
+        .image{
+          max-width: 100% !important;
+        }
+      .round{
+        top: 93% !important;
+        max-width:100% !important;
+        .round-box{
+          width: 160px !important;
+          height: 160px !important;
+        }
+      }
+      .testi-menu-content{
+
+        h1{
+          font-size: 30px !important;
+          // max-width: 100%;
+        }
+        p{
+          font-size: 20px !important;
+        }
+        h6{
+          font-size: 18px !important;
+        }
+        .flex-content{
+ 
+      .flex-a{
+        // flex-wrap: wrap !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        }
+      }
+         .test-menu{
+        flex-wrap: nowrap !important;
+      }
+  }
 }
 
 @media (min-width: 1440px) and (max-width: 1680px) {
   .navbar-mobile {
     display: none;
   }
+  .testi-background{
+    position: relative !important;
+  
+        .image{
+          max-width: 100% !important;
+        }
+      .round{
+        top: 93% !important;
+        max-width:100% !important;
+        .round-box{
+          width: 160px !important;
+          height: 160px !important;
+        }
+      }
+      .testi-menu-content{
+
+        h1{
+          font-size: 35px !important;
+          // max-width: 100%;
+        }
+        p{
+          font-size: 22px !important;
+        }
+        h6{
+          font-size: 18px !important;
+        }
+        .flex-content{
+ 
+      .flex-a{
+        // flex-wrap: wrap !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        }
+      }
+         .test-menu{
+        flex-wrap: nowrap !important;
+        flex-direction: row !important;
+      }
+  }
 }
 
 @media (min-width: 1680px) and (max-width: 1920px) {
   .navbar-mobile {
     display: none;
+  }
+  .testi-background{
+    position: relative !important;
+  
+        .image{
+          max-width: 100% !important;
+        }
+      .round{
+        top: 93% !important;
+        max-width:100% !important;
+        .round-box{
+          width: 160px !important;
+          height: 160px !important;
+        }
+      }
+      .testi-menu-content{
+
+        h1{
+          font-size: 40px !important;
+          // max-width: 100%;
+        }
+        p{
+          font-size: 20px !important;
+        }
+        h6{
+          font-size: 18px !important;
+        }
+        .flex-content{
+ 
+      .flex-a{
+        // flex-wrap: wrap !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        }
+      }
+         .test-menu{
+        flex-wrap: nowrap !important;
+        flex-direction: row !important;
+      }
   }
 }
 
