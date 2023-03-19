@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <section class="call-background">
     <div class="call-content-menu">
       <div class="call-content">
@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import diamond from '../assets/image/diamon.png'
+import diamond from '../assets/image/diamond.png'
 import man from '../assets/image/man.png'
 import roket from '../assets/image/roket.png'
 import ring from '../assets/image/ring.png'
@@ -55,4 +55,4 @@ export default {
 
 <style lang="scss">
 @import "../assets/callSection";
-</style> -->
+</style>

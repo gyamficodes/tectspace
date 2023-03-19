@@ -277,7 +277,45 @@
       }
     }
   }
+.testi-background{
+  position: relative !important;
 
+      .image{
+        max-width: 100% !important;
+      }
+    .round{
+      top: 50% !important;
+      max-width:100% !important;
+      .round-box{
+        width: 160px !important;
+        height: 160px !important;
+      }
+    }
+    .testi-menu-content{
+      h1{
+        font-size: 25px !important;
+        // max-width: 100%;
+      }
+      p{
+        font-size: 19px !important;
+      }
+      h6{
+        font-size: 17px !important;
+      }
+      .flex-content{
+    flex-wrap: wrap !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .flex-a{
+      flex-wrap: wrap !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+      }
+    }
+}
 
 
 }
@@ -509,7 +547,45 @@
       }
     }
   }
-
+  .testi-background{
+    position: relative !important;
+  
+        .image{
+          max-width: 100% !important;
+        }
+      .round{
+        top: 50% !important;
+        max-width:100% !important;
+        .round-box{
+          width: 160px !important;
+          height: 160px !important;
+        }
+      }
+      .testi-menu-content{
+        h1{
+          font-size: 35px !important;
+          // max-width: 100%;
+        }
+        p{
+          font-size: 23px !important;
+        }
+        h6{
+          font-size: 20px !important;
+        }
+        .flex-content{
+      flex-wrap: wrap !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .flex-a{
+        flex-wrap: wrap !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        }
+      }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -690,6 +766,42 @@
       }
     }
   }
+  .testi-background{
+    position: relative !important;
+  
+        .image{
+          max-width: 100% !important;
+        }
+      .round{
+        top: 50% !important;
+        max-width:100% !important;
+        .round-box{
+          width: 160px !important;
+          height: 160px !important;
+        }
+      }
+      .testi-menu-content{
+        h1{
+          font-size: 40px !important;
+          // max-width: 100%;
+        }
+        p{
+          font-size: 23px !important;
+        }
+        h6{
+          font-size: 20px !important;
+        }
+        .flex-content{
+ 
+      .flex-a{
+        flex-wrap: wrap !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        }
+      }
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -869,6 +981,42 @@
         // }
       }
     }
+  }
+  .testi-background{
+    position: relative !important;
+  
+        .image{
+          max-width: 100% !important;
+        }
+      .round{
+        top: 50% !important;
+        max-width:100% !important;
+        .round-box{
+          width: 160px !important;
+          height: 160px !important;
+        }
+      }
+      .testi-menu-content{
+        h1{
+          font-size: 45px !important;
+          // max-width: 100%;
+        }
+        p{
+          font-size: 25px !important;
+        }
+        h6{
+          font-size: 21px !important;
+        }
+        .flex-content{
+     
+      .flex-a{
+        flex-wrap: wrap !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        }
+      }
   }
 }
 
@@ -1073,6 +1221,42 @@
         // }
       }
     }
+  }
+  .testi-background{
+    position: relative !important;
+  
+        .image{
+          max-width: 100% !important;
+        }
+      .round{
+        top: 50% !important;
+        max-width:100% !important;
+        .round-box{
+          width: 160px !important;
+          height: 160px !important;
+        }
+      }
+      .testi-menu-content{
+        h1{
+          font-size: 50px !important;
+          // max-width: 100%;
+        }
+        p{
+          font-size: 23px !important;
+        }
+        h6{
+          font-size: 20px !important;
+        }
+        .flex-content{
+ 
+      .flex-a{
+        flex-wrap: wrap !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        }
+      }
   }
 }
 
