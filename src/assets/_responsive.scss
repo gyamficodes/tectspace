@@ -353,6 +353,14 @@
       }
     }
   }
+.call-content-menu{
+  .call-content{
+    h1{
+      font-size: 25px !important;
+    }
+  }
+}
+
 
 }
 
@@ -654,6 +662,12 @@
       }
     }
   
+}  .call-content-menu{
+  .call-content{
+    h1{
+      font-size: 28px !important;
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -908,6 +922,13 @@
         }
       }
     }
+  }  .call-content-menu{
+    .call-content{
+      h1{
+        font-size: 30px !important;
+      }
+    }
+  
 }
 
 // Large devices (desktops, 992px and up)
@@ -1166,7 +1187,12 @@
         }
       }
     }
-
+  }  .call-content-menu{
+    .call-content{
+      h1{
+        font-size: 40px !important;
+      }
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
