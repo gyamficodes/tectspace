@@ -78,7 +78,7 @@ export default {
           date: " August 21, 2023 ",
           a: "Top 10 Most Populars Google Chrome Extensions",
           title:
-            "Monotonectally actualize <br> customer  methodologie rather than",
+            "Monotonectally actualize  customer  methodologie rather than",
           pic3: image3,
           name: "Michel Das",
           learn: "learn more",
@@ -90,7 +90,7 @@ export default {
           date: " August 21, 2023 ",
           a: " Most Important Figma  Tools Discussion",
           title:
-            "Monotonectally actualize <br> customer  methodologie rather than",
+            "Monotonectally actualize  customer  methodologie rather than",
           pic3: image3,
           name: "Boxon Sen",
           learn: "learn more",
@@ -102,7 +102,7 @@ export default {
           date: " August 21, 2023 ",
           a: " How to Plugin Install  in Wordpress Server? ",
           title:
-            "Monotonectally actualize <br> customer  methodologie rather than",
+            "Monotonectally actualize customer  methodologie rather than",
           pic3: image3,
           name: "Alex Collins",
           learn: "learn more",

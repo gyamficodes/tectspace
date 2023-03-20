@@ -322,6 +322,38 @@
   flex-direction: column;
 }
 
+.blog-top{
+  flex-wrap: wrap !important;
+  gap: 1em !important;
+  .blog-top-content-a{
+    h1{
+      font-size: 30px !important;
+    }
+  }
+}
+  .blog-down{
+    .card-flex{
+      flex-wrap:  wrap !important;
+      max-width: 100% !important;
+      .card{
+        .card-body{
+          a{
+            font-size: 20px !important;
+          }
+          p{
+            font-size: 15px !important;
+          }
+          .card-main-box{
+            display: flex;
+            align-items: center;
+            gap: 3em !important;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -590,6 +622,38 @@
         }
       }
   }
+  .blog-top{
+    flex-wrap: wrap !important;
+    gap: 1em !important;
+    .blog-top-content-a{
+      h1{
+        font-size: 30px !important;
+      }
+    }
+  }
+    .blog-down{
+      .card-flex{
+        flex-wrap:  wrap !important;
+        max-width: 100% !important;
+        .card{
+          .card-body{
+            a{
+              font-size: 23px !important;
+            }
+            p{
+              font-size: 17px !important;
+            }
+            .card-main-box{
+              display: flex;
+              align-items: center;
+              gap: 3em !important;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  
 }
 
 // Medium devices (tablets, 768px and up)
@@ -806,7 +870,44 @@
         }
       }
   }
-  
+  .blog-top{
+    flex-wrap: wrap !important;
+    // gap: 1em !important;
+ 
+    .blog-top-content-a{
+     
+      h1{
+        font-size: 38px !important;
+      }
+    }
+  }
+    .blog-down{
+      .card-flex{
+        flex-wrap:  wrap !important;
+        // // max-width: 100% !important;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+
+        .card{
+          margin: auto;
+          .card-body{
+            a{
+              font-size: 23px !important;
+            }
+            p{
+              font-size: 17px !important;
+            }
+            .card-main-box{
+              display: flex;
+              align-items: center;
+              gap: 3em !important;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -1026,6 +1127,46 @@
       //   flex-wrap: nowrap !important;
       // }
   }
+
+  .blog-top{
+    flex-wrap: wrap !important;
+    // gap: 1em !important;
+ 
+    .blog-top-content-a{
+     
+      h1{
+        font-size: 38px !important;
+      }
+    }
+  }
+    .blog-down{
+      .card-flex{
+        flex-wrap:  wrap !important;
+        // // max-width: 100% !important;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+
+        .card{
+          margin: auto;
+          .card-body{
+            a{
+              font-size: 23px !important;
+            }
+            p{
+              font-size: 17px !important;
+            }
+            .card-main-box{
+              display: flex;
+              align-items: center;
+              gap: 3em !important;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -1270,6 +1411,33 @@
         flex-wrap: nowrap !important;
       }
   }
+  .blog-down{
+    .card-flex{
+      flex-wrap:  wrap !important;
+      // // max-width: 100% !important;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+
+      // .card{
+      //   margin: auto;
+      //   .card-body{
+      //     a{
+      //       font-size: 23px !important;
+      //     }
+      //     p{
+      //       font-size: 17px !important;
+      //     }
+      //     .card-main-box{
+      //       display: flex;
+      //       align-items: center;
+      //       gap: 3em !important;
+      //       margin-top: 20px;
+      //     }
+      //   }
+      // }
+    }
+  }
 }
 
 @media (min-width: 1367px) and (max-width: 1440px) {
@@ -1316,6 +1484,7 @@
         flex-wrap: nowrap !important;
       }
   }
+  
 }
 
 @media (min-width: 1440px) and (max-width: 1680px) {
