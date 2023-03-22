@@ -36,6 +36,7 @@ import MobilePage from "@/components/MobilePage.vue";
 
 export default {
   name: "HomeView",
+  props:[],
   components: {
     // eslint-disable-next-line vue/no-unused-components
     AppHeader,

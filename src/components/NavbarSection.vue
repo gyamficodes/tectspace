@@ -30,6 +30,8 @@
 <script>
 export default {
   name: "NavbarSection",
+  components: {
+  },
   props: {},
   data() {
     return {};
