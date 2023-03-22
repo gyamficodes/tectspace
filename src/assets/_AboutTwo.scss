@@ -1,41 +1,62 @@
-.About-section{
-    height: 70vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 1;
-    &::after{
-        content: "";
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: linear-gradient(to right, rgba(12,90,219, 0.85), rgba(12,90,219, 0.80), rgba(18,85,194, 0.70), rgba(34,86,172, 0.75), rgba(38,85,163, 0.75));
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-    }  
+@mixin flexx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.About-section {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+  &::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(
+      to right,
+      rgba(12, 90, 219, 0.85),
+      rgba(12, 90, 219, 0.8),
+      rgba(18, 85, 194, 0.7),
+      rgba(34, 86, 172, 0.75),
+      rgba(38, 85, 163, 0.75)
+    );
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  .menu-sec {
+    @include flexx();
+    .menu-sec-content {
+      h1 {
+        font-size: 90px;
+        color: #fff;
+        font-weight: 500;
+      }
+      .flex-main {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        a {
+          text-decoration: none;
+          font-size: 18px;
+          color: #ccc;
+          font-weight: 500;
+          text-transform: capitalize;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

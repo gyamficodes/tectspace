@@ -2,7 +2,7 @@
   <div class="about">
     <MobilePageVue />
     <AppHeader />
-    <NavbarSection />
+    <NavbarSection/>
     <AboutTwo/>
   </div>
 </template>
