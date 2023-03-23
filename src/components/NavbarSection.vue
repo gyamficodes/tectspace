@@ -7,12 +7,12 @@
     </div>
     <div class="nav-right-box">
         <div class="box-links">
-            <a href="#">home<font-awesome-icon class="myicon" icon="fa-solid fa-key" /></a>
-          <a href="#">company</a>
-          <a href="#">services <font-awesome-icon class="myicon" icon="fa-solid fa-key " /></a>
-          <a href="#">pages<font-awesome-icon class="myicon" icon="fa-solid fa-key" /></a>
-          <a href="#">element<font-awesome-icon class="myicon" icon="fa-solid fa-key" /></a>
-          <a href="#">blog<font-awesome-icon class="myicon" icon="fa-solid fa-key" /></a>
+            <a href="#">home<span id="myicon" class="material-icons">expand_more</span></a>
+          <a href="#">company </a>
+          <a href="#">services <span id="myicon" class="material-icons">expand_more</span></a>
+          <a href="#">pages<span id="myicon" class="material-icons">expand_more</span></a>
+          <a href="#">element<span id="myicon" class="material-icons">expand_more</span></a>
+          <a href="#">blog<span id="myicon" class="material-icons">expand_more</span></a>
           <a href="#">contact</a>
         </div>
         <div class="box-btn">

@@ -32,22 +32,23 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    gap: 0.5em;
+                    gap: 0.2em !important;
                     text-decoration: none;
                     font-size: 18px;
                     text-transform: capitalize;
                     color: #232323;
                     transition: all 0.3s ease;
                     font-weight: 600;
-                    .myicon {
-                        transition: all 0.2s ease-in;
+                    #myicon {
+                        transition: all 0.2s ease-in !important;
+                        font-size: 30px !important;
                       }
                       &:hover {
                         color: #0c5adb;
                       }
-                      &:hover .myicon {
+                      &:hover #myicon {
                         color: #0c5adb;
-                        transform: rotate(135deg);
+                        transform: rotate(177deg);
                       }
                 }
             }

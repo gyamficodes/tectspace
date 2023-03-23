@@ -3,11 +3,11 @@
     <div class="container">
       <div class="menu-sec">
         <div class="menu-sec-content">
-          <h1>About Two</h1>
+          <h1>{{ name }}</h1>
           <div class="flex-main">
-            <a href="#">home</a>
-            <a href="#">pages</a>
-            <a href="#">about page two</a>
+            <a href="#">{{ home }}</a>
+            <a href="#">{{ pages }}</a>
+            <a href="#">{{ test }}</a>
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@ import slider from "../assets/image/slider-10.jpg";
 export default {
   name: "AboutTwo",
   components: {},
-  props: {},
+  props: ['name', 'home', 'pages','test'],
   data() {
     return {
       slide: slider,
