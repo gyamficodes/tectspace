@@ -6,6 +6,7 @@
     <AboutTwo name="About Two" home="home" pages="pages" test="about page two"/>
     <EsperiencePage/>
     <RequestPage/>
+    <ServicesPagetwo/>
   </div>
 </template>
 <script>
@@ -15,6 +16,7 @@ import MobilePageVue from "@/components/MobilePage.vue";
 import AboutTwo from "@/components/AboutTwo.vue";
 import EsperiencePage from "@/components/EsperiencePage.vue";
 import RequestPage from "@/components/RequestPage.vue";
+import ServicesPagetwo from "@/components/ServicesPagetwo.vue";
 
 export default {
   name: "AboutView",
@@ -30,7 +32,9 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     EsperiencePage,
     // eslint-disable-next-line vue/no-unused-components
-    RequestPage
+    RequestPage,
+    // eslint-disable-next-line vue/no-unused-components
+    ServicesPagetwo,
   },
   props: {},
   data() {
