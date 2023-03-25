@@ -9,7 +9,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        padding-bottom: 330px;
+        padding-bottom: 300px;
         .myBox{
             height: auto;
             width: 100%;
@@ -38,6 +38,54 @@
                 margin-top: 6px;
                color: #0c5adb;
                font-weight: 500;
+            }
+         }
+        }
+        }
+    }
+    .serviePagetwo-Down{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .page-two-box{
+            display: flex;
+            // justify-content: center;
+            gap: 4em;
+            margin-bottom: 100px;
+        .card{
+           display: flex; 
+    
+           gap: 1em;
+           .card-num{
+            display: flex; 
+            align-items: center;
+            gap: 0.5em;
+            margin-top: -130px;
+            h1{
+                font-size: 30px !important;
+                color: #0c5adb;
+            }
+            #line{
+                width: 50px;
+                height: 3px;
+                background: #0c5adb;
+              
+            }
+           } 
+         .card-content{
+            // margin-top: 32px;
+            h2{
+                font-size: 30px;
+                color: #000;
+                font-weight: 500;
+            }
+            p{
+                font-size: 20px;
+                color: #616161;
+                font-weight: 500;
+                margin-top: 20px;
+                left: 1.6;
             }
          }
         }
