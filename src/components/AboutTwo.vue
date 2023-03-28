@@ -7,7 +7,7 @@
           <div class="flex-main">
             <a href="#">{{ home }}</a>
             <a href="#">{{ pages }}</a>
-            <a href="#">{{ test }}</a>
+            <a href="#">{{test}}</a>
           </div>
         </div>
       </div>
