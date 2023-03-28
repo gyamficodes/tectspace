@@ -1,0 +1,21 @@
+@mixin flex-item{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+.Process-Background{
+    background: #eff2f7;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .Process-Top{
+        @include flex-item();
+        .Process-Top-content{
+            h2{
+                font-size: 30px;
+                letter-spacing: 0;
+                color: #0c5adb;
+            }
+        }
+    }
+}
