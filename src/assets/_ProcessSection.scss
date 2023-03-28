@@ -1,21 +1,118 @@
-@mixin flex-item{
-  display: flex;  
+@mixin flex-item {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.Process-Background{
-    background: #eff2f7;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    .Process-Top{
-        @include flex-item();
-        .Process-Top-content{
-            h2{
-                font-size: 30px;
-                letter-spacing: 0;
-                color: #0c5adb;
-            }
+.Process-Background {
+  background: #eff2f7;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .Process-Top {
+    @include flex-item();
+    .Process-Top-content {
+      h2 {
+        font-size: 20px;
+        letter-spacing: 0;
+        color: #0c5adb;
+        text-align: center;
+      }
+      h1 {
+        font-size: 50px;
+        font-weight: 800;
+        color: #232323;
+        margin-top: 20px;
+      }
+      .h-line {
+        height: 6px;
+        width: 100px;
+        margin: auto;
+        background: #cbbded;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        position: relative;
+        border-radius: 30px;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: -2.7px;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background: #0c5adb;
+          animation: move 4s linear infinite;
         }
+        &:hover::after {
+          @keyframes move {
+            to {
+              transform: translateX(88px);
+            }
+          }
+        }
+      }
     }
+  }
+  .Process-Down {
+    @include flex-item();
+    .Process-down-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1em;
+      .card {
+        width: 360px;
+        height: auto;
+        // border:  1px solid #fff;
+        transition: all 0.4s ease-in-out;
+        text-align: center;
+        &:hover .round {
+          margin-top: -160px !important;
+        }
+        &:hover h1{
+            color: #0c5adb;
+        }
+        .pic {
+          position: relative;
+          img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 10px solid #fff;
+            transition: all 0.4s ease-in-out;
+          }
+          .round {
+            width: 70px;
+            height: 70px;
+            background: #0c5adb;
+            color: #fff;
+            font-size: 23px;
+            font-weight: 600;
+            margin: auto;
+            border-radius: 50%;
+            @include flex-item();
+            margin-top: -50px;
+            position: absolute;
+            left: 42%;
+            transition: all 0.4s ease-in-out;
+          }
+        }
+        h1{
+            font-size: 30px;
+            margin-top: 50px;
+            font-weight: 700;
+            color: #232323;
+            // margin-bottom: 3px;
+           
+        }
+        p{
+            font-size: 20px;
+            color: #616161;
+            line-height: 1.5;
+            margin-top: -30px;
+        }
+      }
+    }
+  }
 }
