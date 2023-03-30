@@ -1,26 +1,35 @@
 <template>
- <section class="Contact-section">
+  <section class="Contact-section">
     <div class="container">
-        <h1>wrterbiu</h1>
+      <div class="main">
+        <div class="contact-main-box">
+          <h1>contact us</h1>
+          <div class="input-box">
+           <div class="ipA">
+            <input type="text" placeholder="Name">
+           </div>
+           <div class="ipB"></div>
+          </div>
+
+        </div>
+      </div>
     </div>
- </section>
+  </section>
 </template>
 
 <script>
-    export default {
-        name: 'ContactPage',
-        data() {
-            return{}
-        },
-        methods: {},
+export default {
+  name: "ContactPage",
+  data() {
+    return {};
+  },
+  methods: {},
   computed: {},
   mounted() {
     this.meSage;
   },
   watch: {},
-    }
+};
 </script>
 
-<style lang="sass">
-
-</style>
+<style lang="sass"></style>
