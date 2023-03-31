@@ -9,6 +9,7 @@
     <ServicesPagetwo/>
     <ProcessPage/>
     <ContactPage/>
+    <FooterAboutPage/>
   </div>
 </template>
 <script>
@@ -21,6 +22,7 @@ import RequestPage from "@/components/RequestPage.vue";
 import ServicesPagetwo from "@/components/ServicesPagetwo.vue";
 import ProcessPage from "@/components/ProcessPage.vue";
 import ContactPage from "@/components/ContactPage.vue";
+import FooterAboutPage from "@/components/FooterAboutPage.vue";
 
 export default {
   name: "AboutView",
@@ -43,6 +45,8 @@ export default {
     ProcessPage,
     // eslint-disable-next-line vue/no-unused-components
     ContactPage,
+    // eslint-disable-next-line vue/no-unused-components
+    FooterAboutPage,
   },
   props: {},
   data() {
