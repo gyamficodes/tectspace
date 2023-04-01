@@ -1,0 +1,255 @@
+.footerpages {
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  background: #111a3a;
+  .Footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    padding-bottom: 150px;
+    .Footer-top-a {
+      display: flex;
+      align-items: center;
+      gap: 4em;
+      flex-wrap: wrap;
+      .footer-top-left {
+        .image {
+          width: 200px !important;
+          height: 40px !important;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        p {
+          color: #fff;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 1.7;
+          margin-top: 30px;
+        }
+
+        .social-media-flex {
+          h1 {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: -1px;
+          }
+          display: flex;
+          // align-items: center;
+          gap: 1em;
+          margin-top: 30px;
+          .facebook {
+            width: 30px;
+            height: 30px;
+            background: #187dff;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            .social {
+              color: #fff;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .footer-top-right {
+        display: flex;
+        // align-items: center;
+        gap: 1em;
+        flex-direction: column;
+        h1 {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+        }
+        h2 {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: #187dff;
+          }
+        }
+        h2 {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 300;
+          text-align: left;
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          gap: 0.5em;
+          text-transform: capitalize;
+          .dash {
+            height: 1px;
+            width: 20px;
+            background: #fff;
+          }
+        }
+      }
+    }
+    .Footer-top-b {
+      display: flex;
+      align-items: center;
+      gap: 4em;
+      flex-wrap: wrap;
+      .Footer-topLeft {
+        h1 {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 30px;
+        }
+        .flexbase {
+          display: flex;
+          gap: 1em;
+          border-bottom: 2px solid #ccc;
+          padding-bottom: 20px;
+          .image-box {
+            img {
+              width: 90px;
+              height: 70px;
+            }
+          }
+          .image-content {
+            flex-direction: column;
+            display: flex;
+            a {
+              text-decoration: none;
+              font-size: 16px;
+              color: #fff;
+              font-weight: 600;
+              transition: all 0.3s ease-in-out;
+              &:hover{
+                color: #187dff;
+                cursor: pointer;
+              }
+            }
+            span {
+              color: #ccc;
+              font-weight: 500;
+              font-size: 15px;
+              margin-top: 5px;
+            }
+          }
+        }
+        .flexbase-b {
+          display: flex;
+          gap: 1em;
+          // border-bottom: 2px solid #ccc;
+          margin-top: 20px;
+          .image-box {
+            img {
+              width: 90px;
+              height: 70px;
+            }
+          }
+          .image-content {
+            flex-direction: column;
+            display: flex;
+            a {
+              text-decoration: none;
+              font-size: 16px;
+              color: #fff;
+              font-weight: 600;
+              transition: all 0.3s ease-in-out;
+              &:hover{
+                color: #187dff;
+                cursor: pointer;
+              }
+            }
+            span {
+              color: #ccc;
+              font-weight: 500;
+              font-size: 15px;
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+      .Footer-topRight {
+        h1 {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+        .toRight-flex {
+          display: flex;
+          align-items: center;
+          // justify-content: center;
+          gap: 1em;
+          .Icon-box {
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            // line-height: 40px;
+            background: #3d65de;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+          .Icon-content {
+            h1 {
+              color: #fff;
+              font-size: 15px;
+              margin-bottom: -3px;
+              line-height: 2.5;
+              text-transform: capitalize;
+            }
+            p {
+              color: #ccc;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .Footer-navbar {
+    height: 90px;
+    border-top: 1px solid #ccc;
+    .Footer-nav-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      flex-wrap: wrap;
+      .CopyRight-text {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover {
+          color: #ccc;
+        }
+      }
+      .CopyRight-privacy {
+        span {
+          color: #fff;
+          font-size: 15px;
+          font-weight: 500;
+          cursor: pointer;
+          &:hover {
+            color: #ccc;
+          }
+        }
+      }
+    }
+  }
+}
