@@ -5,7 +5,7 @@
   height: 100%;
 }
 .About-section {
-  height: 70vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,7 +35,7 @@
     @include flexx();
     .menu-sec-content {
       h1 {
-        font-size: 90px;
+        font-size: 65px;
         color: #fff;
         font-weight: 500;
       }
