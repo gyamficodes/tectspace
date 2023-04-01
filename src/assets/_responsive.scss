@@ -372,6 +372,25 @@
    }
   }
 }
+.Footer-top-a{
+  display: flex !important;
+      align-items: center !important; 
+      justify-content: center !important;
+      gap: 4em;
+      flex-wrap: wrap;
+
+}
+.Footer-top-b{
+  display: flex !important;
+      align-items: center !important; 
+      justify-content: center !important;
+      gap: 4em;
+      flex-wrap: wrap;
+}
+
+.Footer-topRight{
+  margin-left: 60px;
+}
 
 }
 
@@ -704,6 +723,7 @@
      }
     }
   }
+  
 }
 
 // Medium devices (tablets, 768px and up)
