@@ -3,17 +3,20 @@
   background: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
+
   .Esperience-menu {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     gap: 5em;
+
     .esperince-left {
       .pic {
         width: 740px;
         height: 693px;
       }
     }
+
     .esperince-right {
       .esperience-content {
         h6 {
@@ -22,14 +25,17 @@
           font-size: 23px;
           margin-bottom: 39px;
         }
+
         h1 {
           font-size: 60px;
           font-weight: 800;
           color: #000;
+
           span {
             color: #0c5adb;
           }
         }
+
         .h-line {
           height: 6px;
           width: 140px;
@@ -37,6 +43,7 @@
           margin-top: 20px;
           position: relative;
           border-radius: 30px;
+
           &::after {
             content: "";
             position: absolute;
@@ -48,6 +55,7 @@
             background: #0c5adb;
             animation: move 3s linear infinite;
           }
+
           &:hover::after {
             @keyframes move {
               to {
@@ -56,6 +64,7 @@
             }
           }
         }
+
         p {
           color: #616161;
           font-size: 25px;
@@ -63,11 +72,13 @@
           margin-top: 30px;
           line-height: 1.5;
         }
+
         .flex-espe {
           display: flex;
           align-items: center;
           gap: 1em;
-  margin-top: 30px;
+          margin-top: 30px;
+
           .icon {
             span {
               font-size: 69px !important;
@@ -75,17 +86,19 @@
               cursor: pointer;
             }
           }
-          .image-test{
-            
-            h5{
-                font-size: 30px;
-            color: #000;
-            margin-bottom: -20px;
+
+          .image-test {
+
+            h5 {
+              font-size: 30px;
+              color: #000;
+              margin-bottom: -20px;
             }
-            p{
-                font-size: 22px;
-                color: #616161;
-                font-weight: 400;
+
+            p {
+              font-size: 22px;
+              color: #616161;
+              font-weight: 400;
             }
           }
         }
