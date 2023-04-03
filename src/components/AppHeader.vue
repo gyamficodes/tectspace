@@ -4,8 +4,8 @@
       <div class="top-section-menu">
         <div class="top-left-menu">
           <a href="#"><font-awesome-icon class="myicon" icon="fa-solid fa-envelope" />example@example.com</a>
-          <a href="#"><font-awesome-icon class="myicon" icon="fa-solid fa-map" />example@example.com</a>
-          <a href="#"><font-awesome-icon class="myicon" icon="fa-solid fa-phone" />example@example.com</a>
+          <a href="#"><span class="material-icons">location_on</span>24/5, 1st Floor, Kurigram</a>
+          <a href="#"><font-awesome-icon class="myicon" icon="fa-solid fa-phone" />+ (1800) 456 7890</a>
         </div>
         <div class="top-right-menu">
           <font-awesome-icon class="social" icon="fa-solid fa-message" />
