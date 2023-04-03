@@ -4,17 +4,19 @@
             <div class="main-navbar-mobile-box">
                 <h3>Techno</h3>
           <font-awesome-icon @click="ShowMobileView" class="social" icon="fa-solid fa-bars" />
-                <!-- <i id="open" class="fa-solid fa-bars"></i> -->
-                <!-- <i id="close" class="fa-solid fa-xmark times"></i> -->
             </div>
             <div v-if="isHowMobile" class="main-navbar-mobile-dropdown-box">
                 <div class="dropdown-item-box">
-                    <span>Home</span>
+                    <router-link to="/" style="text-decoration: none; color: #232323;">
+                        <span>Home</span>
+            </router-link>
                     <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
 
                 <div class="dropdown-item-box">
-                    <span>Company</span>
+                    <router-link to="/about" style="text-decoration: none;color: #232323;">
+                        <span>About</span>
+            </router-link>
                     <font-awesome-icon class="i" icon="fa-solid fa-plus" />
                 </div>
 
