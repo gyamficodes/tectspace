@@ -9,7 +9,7 @@
             further information
           </h1>
           <div class="btn">
-            <a href="#">join with now <span class="material-icons">east</span></a>
+            <a href="#">join with now <span id="ic" class="material-icons">east</span></a>
           </div>
 
         </div>

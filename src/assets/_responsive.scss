@@ -217,8 +217,6 @@
         }
       }
     }
-
-
   }
 
   .branding-menu {
@@ -451,7 +449,6 @@
     justify-content: center !important;
     gap: 4em;
     flex-wrap: wrap;
-
   }
 
   .Footer-top-b {
@@ -475,7 +472,6 @@
         width: 400px !important;
         height: 300px !important;
         max-width: 100% !important;
-
       }
     }
 
@@ -489,7 +485,6 @@
 
         h1 {
           font-size: 25px !important;
-
         }
 
         .h-line {
@@ -516,11 +511,158 @@
     }
   }
 
+  .Request-Page {
+    padding-bottom: 50px !important;
+  }
+  .Request-content {
+    h5 {
+      font-size: 20px !important;
+    }
+    h1 {
+      font-size: 20px !important;
+    }
+    .btn {
+      width: 200px !important;
+      height: 50px !important;
+      a {
+        font-size: 18px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3em;
+        #ic {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+
+
+  .serviePagetwo-Top{
+    .myBox{
+      margin-top: 100px !important;
+      height: 500px !important;
+      position: relative !important;
+      .box-flex{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 4em !important;
+        .box{
+          h1{
+            font-size: 35px !important;
+          }
+          span{
+            font-size: 20px !important;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .serviePagetwo-Down{
+   .page-two-box{
+    flex-wrap: wrap !important;
+    .card{
+      .card-num{
+        margin-top: -70px !important;
+      } 
+      .card-content{
+        h2{
+          font-size: 20px !important;
+        }
+        p{
+          font-size: 15px !important;
+        }
+      }
+    }
+   }
+  }
+
 
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .serviePagetwo-Top{
+    .myBox{
+      margin-top: 100px !important;
+      height: 500px !important;
+      position: relative !important;
+      .box-flex{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 4em !important;
+        .box{
+          h1{
+            font-size: 50px !important;
+          }
+          span{
+            font-size: 23px !important;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .serviePagetwo-Down{
+   .page-two-box{
+    flex-wrap: wrap !important;
+    .card{
+      .card-num{
+        margin-top: -70px !important;
+      } 
+      .card-content{
+        h2{
+          font-size: 25px !important;
+        }
+        p{
+          font-size: 18px !important;
+        }
+      }
+    }
+   }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .Request-Page {
+    padding-bottom: 50px !important;
+  }
+  .Request-content {
+    h5 {
+      font-size: 30px !important;
+    }
+    h1 {
+      font-size: 40px !important;
+    }
+    .btn {
+      width: 200px !important;
+      height: 50px !important;
+      a {
+        font-size: 18px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3em;
+        #ic {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+
   .Esperience-menu {
     display: flex;
     flex-wrap: wrap;
@@ -530,7 +672,6 @@
         width: 500px !important;
         height: 400px !important;
         max-width: 100% !important;
-
       }
     }
 
@@ -544,7 +685,6 @@
 
         h1 {
           font-size: 30px !important;
-
         }
 
         .h-line {
@@ -939,7 +1079,6 @@
       }
     }
   }
-
 }
 
 .call-content-menu {
@@ -962,12 +1101,81 @@
       }
     }
   }
-
-
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .serviePagetwo-Top{
+    .myBox{
+      margin-top: 100px !important;
+      height: 500px !important;
+      position: relative !important;
+      .box-flex{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 4em !important;
+        .box{
+          h1{
+            font-size: 60px !important;
+          }
+          span{
+            font-size: 25px !important;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .serviePagetwo-Down{
+   .page-two-box{
+    flex-wrap: wrap !important;
+    .card{
+      .card-num{
+        margin-top: -70px !important;
+      } 
+      .card-content{
+        h2{
+          font-size: 28px !important;
+        }
+        p{
+          font-size: 19px !important;
+        }
+      }
+    }
+   }
+  }
+
+
+
+
+  .Request-Page {
+    padding-bottom: 50px !important;
+  }
+  .Request-content {
+    h5 {
+      font-size: 30px !important;
+    }
+    h1 {
+      font-size: 45px !important;
+    }
+    .btn {
+      width: 200px !important;
+      height: 50px !important;
+      a {
+        font-size: 18px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3em;
+        #ic {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+
   .Esperience-menu {
     display: flex;
 
@@ -991,7 +1199,6 @@
 
         h1 {
           font-size: 30px !important;
-
         }
 
         .h-line {
@@ -1273,7 +1480,6 @@
       }
 
       .flex-content {
-
         .flex-a {
           flex-wrap: wrap !important;
           display: flex;
@@ -1289,7 +1495,6 @@
     // gap: 1em !important;
 
     .blog-top-content-a {
-
       h1 {
         font-size: 38px !important;
       }
@@ -1334,11 +1539,58 @@
       font-size: 30px !important;
     }
   }
-
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .serviePagetwo-Top{
+    .myBox{
+      margin-top: 100px !important;
+      height: 100px !important;
+      width: 100% !important;
+      position: relative !important;
+      .box-flex{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 2em !important;
+        .box{
+          h1{
+            font-size: 50px !important;
+          }
+          span{
+            font-size: 23px !important;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .serviePagetwo-Down{
+   .page-two-box{
+    // flex-wrap: wrap !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+       .card-num{
+        margin-top: -140px !important;
+     } 
+      .card-content{
+        h2{
+          font-size: 18px !important;
+        }
+        p{
+          font-size: 13px !important;
+        }
+      }
+    }
+   }
+  }
+
+
+
   .Esperience-menu {
     display: flex;
 
@@ -1349,7 +1601,6 @@
         height: 400px !important;
         max-width: 100% !important;
         margin-top: -130px;
-
       }
     }
 
@@ -1363,7 +1614,6 @@
 
         h1 {
           font-size: 30px !important;
-
         }
 
         .h-line {
@@ -1645,7 +1895,6 @@
       }
 
       .flex-content {
-
         .flex-a {
           flex-wrap: wrap !important;
           display: flex;
@@ -1665,7 +1914,6 @@
     // gap: 1em !important;
 
     .blog-top-content-a {
-
       h1 {
         font-size: 38px !important;
       }
@@ -1714,6 +1962,51 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1367px) {
+
+  .serviePagetwo-Top{
+    .myBox{
+      margin-top: 100px !important;
+      height: 100px !important;
+      width: 100% !important;
+      position: relative !important;
+      .box-flex{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 4em !important;
+        .box{
+          h1{
+            font-size: 50px !important;
+          }
+          span{
+            font-size: 23px !important;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .serviePagetwo-Down{
+   .page-two-box{
+    // flex-wrap: wrap !important;
+    .card{
+       .card-num{
+        margin-top: -120px !important;
+     } 
+      .card-content{
+        h2{
+          font-size: 25px !important;
+        }
+        p{
+          font-size: 15px !important;
+        }
+      }
+    }
+   }
+  }
+
+
   .Esperience-menu {
     display: flex !important;
 
@@ -1723,7 +2016,6 @@
         width: 500px !important;
         height: 400px !important;
         max-width: 100% !important;
-
       }
     }
 
@@ -1737,7 +2029,6 @@
 
         h1 {
           font-size: 35px !important;
-
         }
 
         .h-line {
@@ -1764,7 +2055,7 @@
     }
   }
 
-   .menu-sec-content {
+  .menu-sec-content {
     h1 {
       font-size: 60px !important;
       text-align: center;
@@ -1855,7 +2146,6 @@
 
   .about-section {
     .about-menu-top {
-
       // @include flex-wra();
       .top-img {
         .inn {
@@ -2030,7 +2320,6 @@
     }
 
     .testi-menu-content {
-
       h1 {
         font-size: 30px !important;
         // max-width: 100%;
@@ -2045,7 +2334,6 @@
       }
 
       .flex-content {
-
         .flex-a {
           // flex-wrap: wrap !important;
           display: flex;
@@ -2112,7 +2400,6 @@
     }
 
     .testi-menu-content {
-
       h1 {
         font-size: 30px !important;
         // max-width: 100%;
@@ -2127,7 +2414,6 @@
       }
 
       .flex-content {
-
         .flex-a {
           // flex-wrap: wrap !important;
           display: flex;
@@ -2141,7 +2427,6 @@
       flex-wrap: nowrap !important;
     }
   }
-
 }
 
 @media (min-width: 1440px) and (max-width: 1680px) {
@@ -2167,7 +2452,6 @@
     }
 
     .testi-menu-content {
-
       h1 {
         font-size: 35px !important;
         // max-width: 100%;
@@ -2182,7 +2466,6 @@
       }
 
       .flex-content {
-
         .flex-a {
           // flex-wrap: wrap !important;
           display: flex;
@@ -2222,7 +2505,6 @@
     }
 
     .testi-menu-content {
-
       h1 {
         font-size: 40px !important;
         // max-width: 100%;
@@ -2237,7 +2519,6 @@
       }
 
       .flex-content {
-
         .flex-a {
           // flex-wrap: wrap !important;
           display: flex;
