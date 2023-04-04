@@ -1,8 +1,8 @@
 .Contact-section {
-  height: 70vh;
+  height: auto;
   background: #fff;
   // padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   position: relative;
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@
           flex: 1;
           input {
             width: 100%;
-            height: 70px;
+            height: 60px;
             padding-left: 15px;
             border: 1px solid #e6e6e6;
             color: #495057;
@@ -55,7 +55,7 @@
 
           input {
             width: 100%;
-            height: 70px;
+            height: 60px;
             padding-left: 15px;
             border: 1px solid #e6e6e6;
             color: #495057;

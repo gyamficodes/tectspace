@@ -580,11 +580,28 @@
    }
   }
 
+.contact-main-box{
+  h1{
+    font-size: 20px !important;
+  }
+  .input-box{
+    flex-direction: column !important;
+  } 
+}
 
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-main-box{
+    height: auto !important;
+    h1{
+      font-size: 30px !important;
+    }
+    .input-box{
+      flex-direction: column !important;
+    } 
+  }
   .serviePagetwo-Top{
     .myBox{
       margin-top: 100px !important;
@@ -1105,6 +1122,15 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-main-box{
+    height: auto !important;
+    h1{
+      font-size: 40px !important;
+    }
+    .input-box{
+      flex-direction: column !important;
+    } 
+  }
   .serviePagetwo-Top{
     .myBox{
       margin-top: 100px !important;
@@ -1543,6 +1569,15 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .contact-main-box{
+    height: auto !important;
+    h1{
+      font-size: 50px !important;
+    }
+    .input-box{
+      flex-direction: column !important;
+    } 
+  }
   .serviePagetwo-Top{
     .myBox{
       margin-top: 100px !important;
@@ -1962,7 +1997,15 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1367px) {
-
+  .contact-main-box{
+    height: auto !important;
+    h1{
+      font-size: 50px !important;
+    }
+    .input-box{
+      flex-direction: column !important;
+    } 
+  }
   .serviePagetwo-Top{
     .myBox{
       margin-top: 100px !important;
