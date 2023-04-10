@@ -1,4 +1,4 @@
-<template>
+y<template>
   <div id="app">
     <nav>
       <router-link to="/service"></router-link>
