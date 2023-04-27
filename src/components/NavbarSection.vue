@@ -4,7 +4,7 @@
       <div class="navbar-menu">
         <div class="nav-logo">
           <router-link to="/">
-            <img src="../assets/image/main-logo.png" alt="" />
+            <img :src="pic" alt="" />
             </router-link>
         </div>
         <div class="nav-right-box">
@@ -53,12 +53,17 @@
 </template>
 
 <script>
+import image from "../assets/image/main-logo.png";
+
+
 export default {
   name: "NavbarSection",
   components: {},
   props: {},
   data() {
-    return {};
+    return {
+      pic: image,
+    };
   },
   methods: {},
   computed: {},
