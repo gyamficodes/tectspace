@@ -7,7 +7,7 @@
                 <img src="../assets/image/circle1.png" alt="">
             </div>
           <div class="inn">
-            <img src="../assets/image/circle.png" alt="" />
+            <img src="../assets/image/circle.png" alt="logo" />
           </div>
           <img style="width: 540px; height: 614px" id="vv" :src="img" alt="" />
           <div class="immk">
