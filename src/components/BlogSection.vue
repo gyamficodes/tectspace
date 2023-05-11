@@ -67,6 +67,8 @@ import image5 from "../assets/image/blog3.png";
 
 export default {
   name: "BlogSection",
+  props:[],
+  components:{},
   data() {
     return {
       pic3: image3,

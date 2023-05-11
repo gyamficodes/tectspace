@@ -38,7 +38,7 @@ import item2 from '../assets/image/feature2.png'
         features: [
             {id: 1, title: 'Team Brainstroming', content:'Globally develop the unique technologies <br> Seamlessly cultivate extensible', 
             image: item1},
-            {id: 1, title: 'Business Collaboration', content:'Globally develop the unique technologies <br> Seamlessly cultivate extensible</p>', 
+            {id: 2, title: 'Business Collaboration', content:'Globally develop the unique technologies <br> Seamlessly cultivate extensible</p>', 
             image: item2},
         ]
     };
