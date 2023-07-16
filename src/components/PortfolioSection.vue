@@ -14,7 +14,11 @@
               </h1>
             </div>
             <div class="port-top-flex-b">
-              <div class="port-card" v-for="item in MyCards" :key="item.id">
+              <div class="port-card"
+              :class="{'active': activePage === index}"
+               v-for="(item, index) in MyCards" :key="index" 
+              @click.prevent="activePage = index"
+              >
                 <span>{{ item.text }}</span>
               </div>
             </div>
@@ -22,7 +26,7 @@
         </div>
       </div>
       <div class="portfolio-down">
-        <div class="portfolio-down-cards">
+        <div class="portfolio-down-cards" v-if="activePage === 0">
           <div class="card" v-for="data in cards" :key="data.id">
             <div :style="`background:url(${data.portA})`" class="img">
               <div class="around">
@@ -38,23 +42,26 @@
             </div>
           </div>
         </div>
-        <!-- card-down -->
-        <div class="portfolio-down-cards">
-          <div class="card" v-for="data in cardB" :key="data.id">
-            <div :style="`background:url(${data.portA})`" class="img">
+
+        <div class="portfolio-down-cards" v-if="activePage === 1">
+          <div class="card" v-for="{id, portA, image, text, ltext} in cards1" :key="id">
+            <div :style="`background:url(${portA})`" class="img">
               <div class="around">
                 <font-awesome-icon class="myicon" icon="fa-solid fa-search" />
               </div>
             </div>
             <div class="card-content">
               <div class="flex-cont">
-                <span><img id="img" :src="data.image" alt="" /></span>
-                <span class="text">{{ data.text }}</span>
+                <span><img id="img" :src="image" alt="" /></span>
+                <span class="text">{{ text }}</span>
               </div>
-              <h1>{{ data.ltext }}</h1>
+              <h1>{{ ltext }}</h1>
             </div>
           </div>
         </div>
+
+
+      
       </div>
     </div>
   </section>
@@ -75,12 +82,13 @@ export default {
   props: {},
   data() {
     return {
+      activePage:0,
       MyCards: [
-        { id: 1, text: "all" },
-        { id: 2, text: "Branding" },
-        { id: 3, text: "Design" },
-        { id: 4, text: "Dashboard" },
-        { id: 5, text: "Logo" },
+        { text: "all" },
+        {  text: "Branding" },
+        {  text: "Design" },
+        {  text: "Dashboard" },
+        {  text: "Logo" },
       ],
       cards: [
         {
@@ -104,8 +112,6 @@ export default {
           text: "Development",
           ltext: "Business Admin Panel",
         },
-      ],
-      cardB: [
         {
           id: 1,
           portA: port4,
@@ -128,9 +134,40 @@ export default {
           ltext: "Awesome Logo Design",
         },
       ],
+
+      cards1: [
+       
+      
+        {
+          id: 1,
+          portA: port4,
+          image: code,
+          text: "Development",
+          ltext: "Restaurent App Design",
+        },
+        {
+          id: 2,
+          portA: port5,
+          image: code1,
+          text: "Product Design",
+          ltext: "Figma Dashboard Design",
+        },
+        {
+          id: 3,
+          portA: port6,
+          image: code,
+          text: "Development",
+          ltext: "Awesome Logo Design",
+        },
+      ],
+    
     };
   },
-  methods: {},
+  methods: {
+    setActivePage(index) {
+      this.activePage = index;
+    },
+  },
   computed: {},
   mounted() {},
   watch: {},

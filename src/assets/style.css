@@ -50,7 +50,6 @@
 .navbar {
   height: 90px;
   background: #fff;
-  border-bottom: 1px solid #ccc;
 }
 .navbar .navbar-menu {
   display: flex;
@@ -137,7 +136,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
+  position: static;
 }
 .banner-background .imgg {
   position: absolute;
@@ -239,7 +238,7 @@
 .banner-background .im {
   position: absolute;
   right: 20%;
-  top: 15%;
+  top: 35%;
 }
 .banner-background .im img {
   animation: up 4.1s linear infinite;
@@ -277,7 +276,7 @@
 .banner-background .imm {
   position: absolute;
   right: 11%;
-  top: 25%;
+  top: 35%;
 }
 .banner-background .imm img {
   animation: up 3s linear infinite;
@@ -296,7 +295,7 @@
 .banner-background .ikk {
   position: absolute;
   right: 47%;
-  top: 58%;
+  top: 60%;
 }
 .banner-background .ikk img {
   animation: up 4s linear infinite;
@@ -315,7 +314,7 @@
 .banner-background .imc {
   position: absolute;
   right: 35%;
-  top: 15%;
+  top: 35%;
 }
 .banner-background .imc img {
   animation: rot 9s linear infinite;
@@ -1092,6 +1091,13 @@
   font-size: 20px;
   color: #616161;
 }
+.portfolio-background .portfolio-top .port-top-content .port-top-flex .port-top-flex-b .active {
+  color: #ffffff;
+  background: linear-gradient(to left, #2475fc, #1129b9);
+}
+.portfolio-background .portfolio-top .port-top-content .port-top-flex .port-top-flex-b .active span {
+  color: #ffffff;
+}
 .portfolio-background .portfolio-down .portfolio-down-cards {
   display: flex;
   align-items: center;
@@ -1391,6 +1397,9 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .blog-background .blog-down .card-flex .card:hover .back-image {
   transform: scale(1.08);
